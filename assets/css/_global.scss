@@ -23,7 +23,7 @@
     scroll-behavior: smooth;
 
     &::selection{
-        background-color: #368B85;
+        background-color: #4E008C;
         color: #fff; 
     }
     
@@ -36,12 +36,13 @@
     }
     
     &::-webkit-scrollbar-thumb {
-        background: #368B85; 
+        background: linear-gradient(180deg , #BC8B46 , #4E008C ); 
         border-radius: 8px;
+        transition: all .4s linear;
     }
 
     &::-webkit-scrollbar-thumb:hover {
-        background: #FFD371; 
+        background: linear-gradient(180deg , #4E008C , #BC8B46 );  
     }
 }
 

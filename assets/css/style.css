@@ -25,12 +25,12 @@
 }
 
 *::-moz-selection {
-  background-color: #368B85;
+  background-color: #4E008C;
   color: #fff;
 }
 
 *::selection {
-  background-color: #368B85;
+  background-color: #4E008C;
   color: #fff;
 }
 
@@ -43,12 +43,16 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #368B85;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC8B46), to(#4E008C));
+  background: linear-gradient(180deg, #BC8B46, #4E008C);
   border-radius: 8px;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: #FFD371;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4E008C), to(#BC8B46));
+  background: linear-gradient(180deg, #4E008C, #BC8B46);
 }
 
 .overflowNone {
@@ -1298,6 +1302,15 @@ header .header-img {
           animation: toRightFromLeft .5s linear;
 }
 
+.produt-banner {
+  width: 100% !important;
+  background-color: #fff;
+}
+
+.produt-banner.cat-banner {
+  padding-top: 53px;
+}
+
 .produt-banner .banner {
   width: 100%;
   display: -webkit-box;
@@ -1687,7 +1700,7 @@ header .header-img {
 
 footer {
   width: 100%;
-  padding: 80px 0px 60px 0px;
+  padding: 70px 0px 70px 0px;
   background-color: #4E008C;
   position: relative;
   z-index: 9;

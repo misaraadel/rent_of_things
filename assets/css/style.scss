@@ -616,6 +616,11 @@ header{
 }
 
 .produt-banner{
+    width: 100% !important;
+    background-color: #fff;
+    &.cat-banner{
+        padding-top: 53px;
+    }
     .banner{
         width: 100%;
         display: flex;
@@ -931,7 +936,7 @@ header{
 
 footer{
     width: 100%;
-    padding: 80px 0px 60px 0px;
+    padding: 70px 0px 70px 0px;
     background-color: #4E008C;
     position: relative;
     z-index: 9;
