@@ -1,6 +1,6 @@
 <svg width="120" height="70" viewBox="0 0 120 70" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
-#rotate,#translate_x,#translate_y{transform-origin:center;transform-box:fill-box}#rotate{animation:spin 5s linear infinite}#translate_x{animation:translateX 4s linear infinite}#translate_y{animation:translateY 4s linear infinite}@keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes translateX{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}@keyframes translateY{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+#rotate,#translate_x,#translate_y{transform-origin:center;transform-box:fill-box}#rotate{animation:spin 5s linear infinite}@keyframes spin{0%{-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes translateX{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}@keyframes translateY{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
 </style>
 <g id="Layer 1 1" clip-path="url(#clip0_451_2)">
 <g id="rotate">
