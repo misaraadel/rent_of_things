@@ -532,6 +532,11 @@ ul {
   padding: 0px !important;
 }
 
+.navbar .small-img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
 .navbar .top-nav {
   width: 100%;
   padding: 20px 30px;
@@ -824,6 +829,11 @@ ul {
       align-content: center;
 }
 
+.navbar .nav-form-content .from-group .drop-list-data-selected .drop-item-img {
+  width: 20px !important;
+  height: 20px !important;
+}
+
 .navbar .nav-form-content .from-group .drop-list-item {
   padding: 0px 25px;
   position: relative;
@@ -1085,6 +1095,10 @@ ul {
   background: linear-gradient(90deg, #4E008C, #BC8B46);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+.navbar .bottom-nav .nav-content .btn-img-contain:hover {
+  border: none !important;
 }
 
 header {
@@ -1982,7 +1996,7 @@ footer .content .socail-media li a:hover img {
   }
   .container.owl-nav {
     top: unset !important;
-    bottom: -10px;
+    bottom: 0px;
   }
   .container.owl-nav .owl-prev {
     right: 40% !important;
@@ -1993,6 +2007,9 @@ footer .content .socail-media li a:hover img {
     left: 40% !important;
     -webkit-transform: translateX(-50%) translateY(0px) !important;
             transform: translateX(-50%) translateY(0px) !important;
+  }
+  .produt-banner .container.owl-nav {
+    bottom: -10px !important;
   }
   .produt-banner .banner {
     -webkit-box-orient: vertical !important;

@@ -47,7 +47,7 @@
 
     .container.owl-nav{
         top: unset !important;
-        bottom: -10px;
+        bottom: 0px;
 
         .owl-prev{
             right: 40% !important;
@@ -57,6 +57,12 @@
         .owl-next{
             left: 40% !important;
             transform: translateX(-50%) translateY(0px)  !important;
+        }
+    }
+
+    .produt-banner{
+        .container.owl-nav{
+            bottom: -10px !important;
         }
     }
 
