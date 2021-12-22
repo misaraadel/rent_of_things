@@ -487,6 +487,42 @@ ul {
   }
 }
 
+@-webkit-keyframes pulsecust {
+  0% {
+    opacity: .4;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  100% {
+    opacity: .4;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulsecust {
+  0% {
+    opacity: .4;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+  }
+  100% {
+    opacity: .4;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 .navbar {
   width: 100%;
   padding: 0px !important;
@@ -495,9 +531,21 @@ ul {
 .navbar .top-nav {
   width: 100%;
   padding: 20px 30px;
-  background-image: url("../images/top_nav.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #4E008C;
+  position: relative;
+  z-index: 99;
+}
+
+.navbar .top-nav::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background: url("../images/pattern.png");
+  background-size: contain;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .navbar .top-nav .drop-list {
@@ -532,7 +580,7 @@ ul {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  left: 0px;
+  left: 0px !important;
   top: calc(50% - 3.5px);
 }
 
@@ -796,12 +844,12 @@ ul {
   content: '';
   position: absolute;
   width: 13px;
-  height: 7px;
+  height: 10px;
   background: url("../images/down_arrow.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  left: 10px;
+  left: 2px !important;
   top: calc(50% - 3.5px);
 }
 
@@ -861,11 +909,6 @@ ul {
 
 .navbar .nav-form-content .from-group .drop-list-item .dropdown-item:hover .drop-list-data-contain, .navbar .nav-form-content .from-group .drop-list-item .dropdown-item:active .drop-list-data-contain, .navbar .nav-form-content .from-group .drop-list-item .dropdown-item:focus .drop-list-data-contain {
   color: #fff;
-}
-
-.navbar .nav-form-content .from-group .drop-list-item:hover::after {
-  -webkit-animation: translateY 1s linear infinite;
-          animation: translateY 1s linear infinite;
 }
 
 .navbar .nav-form-content .from-group .drop-list-item:hover .drop-item-img {
@@ -930,22 +973,6 @@ ul {
   font-size: 15px;
   font-weight: 800;
   line-height: 24px;
-}
-
-.navbar .nav-form-content .from-group .input-content .form-control:hover::-webkit-input-placeholder, .navbar .nav-form-content .from-group .input-content .form-control:focus::-webkit-input-placeholder, .navbar .nav-form-content .from-group .input-content .form-control:visited::-webkit-input-placeholder {
-  color: #BC8B46;
-}
-
-.navbar .nav-form-content .from-group .input-content .form-control:hover:-ms-input-placeholder, .navbar .nav-form-content .from-group .input-content .form-control:focus:-ms-input-placeholder, .navbar .nav-form-content .from-group .input-content .form-control:visited:-ms-input-placeholder {
-  color: #BC8B46;
-}
-
-.navbar .nav-form-content .from-group .input-content .form-control:hover::-ms-input-placeholder, .navbar .nav-form-content .from-group .input-content .form-control:focus::-ms-input-placeholder, .navbar .nav-form-content .from-group .input-content .form-control:visited::-ms-input-placeholder {
-  color: #BC8B46;
-}
-
-.navbar .nav-form-content .from-group .input-content .form-control:hover::placeholder, .navbar .nav-form-content .from-group .input-content .form-control:focus::placeholder, .navbar .nav-form-content .from-group .input-content .form-control:visited::placeholder {
-  color: #BC8B46;
 }
 
 .navbar .nav-form-content .submit-search-form {
@@ -1168,6 +1195,7 @@ header .header-img {
       align-content: center;
   text-align: center;
   margin: auto;
+  overflow: hidden;
 }
 
 .browse-product .box.blue {
@@ -1266,8 +1294,8 @@ header .header-img {
 }
 
 .browse-product .box:hover .box-img {
-  -webkit-animation: tada 1s both;
-          animation: tada 1s both;
+  -webkit-animation: toRightFromLeft .5s linear;
+          animation: toRightFromLeft .5s linear;
 }
 
 .produt-banner .banner {
@@ -1506,7 +1534,7 @@ header .header-img {
 }
 
 .product-box .product-contain .product-location {
-  width: 110px;
+  width: 128px;
   height: 40px;
   border-radius: 100px;
   background-color: rgba(188, 139, 70, 0.1);
@@ -1601,6 +1629,10 @@ header .header-img {
   width: 100% !important;
 }
 
+.product-box .product-contain .btn-img-contain:hover {
+  border: none !important;
+}
+
 .product-box:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
@@ -1609,15 +1641,6 @@ header .header-img {
 .product-box:hover .product-img {
   -webkit-transform: scale(1.2) rotate(10deg);
           transform: scale(1.2) rotate(10deg);
-}
-
-.product-box:hover .product-fav img {
-  -webkit-animation: tada 1s both;
-          animation: tada 1s both;
-}
-
-.product-box:hover .btn-img-contain::after {
-  width: 100%;
 }
 
 .owl-stage-outer {
@@ -1675,6 +1698,14 @@ footer .content .brand-img {
   height: 70px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+footer .content.imp-links {
+  padding: 0px 85px 0px 0px;
+}
+
+footer .content.cat-links {
+  padding: 0px 40px 0px 0px;
 }
 
 footer .content .footer-desc {
@@ -1804,8 +1835,8 @@ footer .content .socail-media li a:hover {
 }
 
 footer .content .socail-media li a:hover img {
-  -webkit-animation: toRightFromLeft 1s linear;
-          animation: toRightFromLeft 1s linear;
+  -webkit-animation: toRightFromLeft .5s linear;
+          animation: toRightFromLeft .5s linear;
 }
 
 .copyrights {
@@ -1834,6 +1865,7 @@ footer .content .socail-media li a:hover img {
   font-size: 15px;
   font-weight: 500;
   line-height: 24px;
+  margin: 0px !important;
 }
 
 .copyrights .content .repotic {
@@ -1865,51 +1897,6 @@ footer .content .socail-media li a:hover img {
 
 .copyrights .content .repotic:hover span {
   color: #BC8B46;
-}
-
-.scroll-top-btn {
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  bottom: 0px;
-  left: 0px;
-  border-radius: 0px 10px 0px 0px;
-  z-index: 998;
-  background: -webkit-gradient(linear, left top, right top, from(#BC8B46), to(#4E008C));
-  background: linear-gradient(90deg, #BC8B46, #4E008C);
-  -webkit-box-shadow: 0px 0px 10px rgba(33, 40, 50, 0.1);
-          box-shadow: 0px 0px 10px rgba(33, 40, 50, 0.1);
-  opacity: 0;
-  -webkit-transition: all .4s linear;
-  transition: all .4s linear;
-}
-
-.scroll-top-btn img {
-  width: 20px;
-  height: 20px;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -webkit-filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(163deg) brightness(116%) contrast(100%);
-          filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(163deg) brightness(116%) contrast(100%);
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-
-.scroll-top-btn.acitve {
-  -webkit-animation: tada 1s both;
-          animation: tada 1s both;
-  opacity: 1;
 }
 
 @-webkit-keyframes wave {
@@ -1982,15 +1969,17 @@ footer .content .socail-media li a:hover img {
   }
   .container.owl-nav {
     top: unset !important;
-    -webkit-transform: translateY(0px) !important;
-            transform: translateY(0px) !important;
     bottom: -10px;
   }
   .container.owl-nav .owl-prev {
-    right: 0px !important;
+    right: 40% !important;
+    -webkit-transform: translateX(50%) translateY(0px) !important;
+            transform: translateX(50%) translateY(0px) !important;
   }
   .container.owl-nav .owl-next {
-    left: 0px !important;
+    left: 40% !important;
+    -webkit-transform: translateX(-50%) translateY(0px) !important;
+            transform: translateX(-50%) translateY(0px) !important;
   }
   .produt-banner .banner {
     -webkit-box-orient: vertical !important;
@@ -2005,6 +1994,7 @@ footer .content .socail-media li a:hover img {
         -ms-flex-direction: column !important;
             flex-direction: column !important;
     padding: 20px 10px !important;
+    text-align: center;
   }
   .produt-banner .banner .banner-content p {
     margin-bottom: 20px !important;
@@ -2055,6 +2045,10 @@ footer .content .socail-media li a:hover img {
         -ms-flex-pack: center !important;
             justify-content: center !important;
     margin-top: 20px !important;
+  }
+  footer .imp-links,
+  footer .cat-links {
+    padding: 0px !important;
   }
 }
 

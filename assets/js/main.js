@@ -112,7 +112,7 @@ $(document).ready(function () {
 
     $('.owl-partner').owlCarousel({
         rtl: true,
-        loop:false,
+        loop:true,
         margin: 20,
         nav:false,
         dots: true,
