@@ -849,7 +849,7 @@ ul {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  left: 2px !important;
+  left: 7px !important;
   top: calc(50% - 3.5px);
 }
 
