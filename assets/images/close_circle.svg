@@ -1,0 +1,12 @@
+<svg id="close-circle_twotone" data-name="close-circle/twotone" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="vuesax_twotone_close-circle" data-name="vuesax/twotone/close-circle">
+    <g id="close-circle">
+      <path id="Vector" d="M9,18A9,9,0,1,0,0,9,9.026,9.026,0,0,0,9,18Z" transform="translate(2 2)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Group_686" data-name="Group 686" transform="translate(8.17 8.17)" opacity="0.4">
+        <path id="Vector-2" data-name="Vector" d="M0,5.66,5.66,0" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Vector-3" data-name="Vector" d="M5.66,5.66,0,0" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <path id="Vector-4" data-name="Vector" d="M0,0H22V22H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

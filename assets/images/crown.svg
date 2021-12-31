@@ -1,0 +1,10 @@
+<svg id="crown-2_bulk" data-name="crown-2/bulk" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="vuesax_bulk_crown" data-name="vuesax/bulk/crown">
+    <g id="crown">
+      <path id="Vector" d="M14.7,16.752H5.162a1.006,1.006,0,0,1-.94-.66L.062,4.443a1,1,0,0,1,1.52-1.15l4,2.86a1.007,1.007,0,0,0,1.52-.46L8.992.653a1,1,0,0,1,1.87,0l1.89,5.04a1,1,0,0,0,1.52.46l4-2.86a1,1,0,0,1,1.52,1.15l-4.16,11.65A.983.983,0,0,1,14.7,16.752Z" transform="translate(2.068 2.228)" fill="#bc8b46" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M10.75,1.5H.75A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h10a.755.755,0,0,1,.75.75A.755.755,0,0,1,10.75,1.5Z" transform="translate(6.25 20.5)" fill="#bc8b46"/>
+      <path id="Vector-3" data-name="Vector" d="M5.75,1.5h-5A.755.755,0,0,1,0,.75.755.755,0,0,1,.75,0h5A.755.755,0,0,1,6.5.75.755.755,0,0,1,5.75,1.5Z" transform="translate(8.75 13.25)" fill="#bc8b46"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

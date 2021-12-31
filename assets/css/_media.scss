@@ -39,6 +39,16 @@
                 }
             }
         }
+        .top-nav-content{
+            
+            .drop-list-item{
+                padding-inline-end: 3px !important;
+            }
+
+            .user-list .user-item{
+                margin-inline-end: 8px !important;
+            }
+        }
     }
 
     .acitve-nav{
@@ -132,6 +142,21 @@
         .cat-links{
             padding: 0px !important;
         }
+    }
+
+    .sub-header .content .sub-list .sub-item .link, .sub-header .content .sub-list .sub-item .title{
+        font-size: 11px;
+    }
+
+    .order-mobile-0{
+        order: 0 !important;   
+    }
+    .order-mobile-1{
+        order: 1 !important;
+    }
+
+    .sing-in .sing-in-contain{
+        padding: 45px 10px !important;
     }
 }
 

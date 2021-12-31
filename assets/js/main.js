@@ -27,6 +27,50 @@ $(document).ready(function () {
         $('body').toggleClass('overflowNone')
     });
 
+    //Wow intit
+    wow = new WOW({
+        boxClass: 'wow',
+        animateClass: 'animated',
+        offset: 200,
+        mobile: true,
+        live: false
+    });
+    wow.init();
+
+    $("#slider-range").slider({
+        range:true,
+        orientation:"horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
+        slide:function (event, ui) {
+            if (ui.values[0] == ui.values[1]) {
+            return false;
+            }     
+            $("#min_price").val(ui.values[0]);
+            $("#max_price").val(ui.values[1]);
+
+        }
+    });
+
+    $("#single-slider-range").slider({
+        range:true,
+        orientation:"horizontal",
+        min: 0,
+        max: 10000,
+        values: [0, 10000],
+        step: 100,
+        slide:function (event, ui) {
+            if (ui.values[0] == ui.values[1]) {
+                return false;
+            }     
+            $("#single_min_price").val(ui.values[0]);
+            $("#single_max_price").val(ui.values[1]);
+
+        }
+    });
+
     $('.owl-header').owlCarousel({
         rtl: true,
         loop:true,
@@ -47,6 +91,7 @@ $(document).ready(function () {
         autoplayHoverPause: true,
         items:1
     });
+    
 
     $('.owl-banner').owlCarousel({
         rtl: true,
@@ -141,3 +186,27 @@ $(document).ready(function () {
         }
     });
 });
+
+// sing in password
+var SignPass = false;
+function signIn(){
+    if(SignPass){
+        document.getElementById("SignPassId").setAttribute("type" , "password");
+        SignPass = false;
+    }else{
+        document.getElementById("SignPassId").setAttribute("type" , "text");
+        SignPass = true;
+    }
+}
+
+// sing in password
+var AgainPass = false;
+function passAgain(){
+    if(AgainPass){
+        document.getElementById("passAgainId").setAttribute("type" , "password");
+        AgainPass = false;
+    }else{
+        document.getElementById("passAgainId").setAttribute("type" , "text");
+        AgainPass = true;
+    }
+}

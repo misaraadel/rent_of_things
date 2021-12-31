@@ -70,7 +70,7 @@ ul{
     padding: 0px;
 }
 
-.owl-theme .owl-dots .owl-dot span{
+.owl-theme .owl-dots .owl-dot span {
     width: 40px;
     height: 3px;
     border-radius: 10px !important;
@@ -329,6 +329,11 @@ ul{
     padding-top: 80px;
     background-color: #fff;
 }
+
+.bottom-padding {
+    padding-bottom: 80px !important;
+}
+
 
 .general-pattern{
     &::after{

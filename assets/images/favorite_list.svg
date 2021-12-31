@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_4305" data-name="Group 4305" transform="translate(-313 -114)">
+    <g id="heart-circle_twotone" data-name="heart-circle/twotone" transform="translate(313 114)">
+      <g id="vuesax_twotone_heart-circle" data-name="vuesax/twotone/heart-circle">
+        <g id="heart-circle">
+          <path id="Vector" d="M20,10A10,10,0,1,1,10,0,10,10,0,0,1,20,10Z" transform="translate(2 2)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Vector-2" data-name="Vector" d="M5.73,9.56a1.269,1.269,0,0,1-.67,0C3.5,9.03,0,6.8,0,3.02A3,3,0,0,1,5.4,1.21a3,3,0,0,1,5.4,1.81C10.8,6.8,7.3,9.03,5.73,9.56Z" transform="translate(6.6 7.89)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+          <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
