@@ -1,13 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g id="Group_4305" data-name="Group 4305" transform="translate(-313 -114)">
-    <g id="heart-circle_twotone" data-name="heart-circle/twotone" transform="translate(313 114)">
-      <g id="vuesax_twotone_heart-circle" data-name="vuesax/twotone/heart-circle">
-        <g id="heart-circle">
-          <path id="Vector" d="M20,10A10,10,0,1,1,10,0,10,10,0,0,1,20,10Z" transform="translate(2 2)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-          <path id="Vector-2" data-name="Vector" d="M5.73,9.56a1.269,1.269,0,0,1-.67,0C3.5,9.03,0,6.8,0,3.02A3,3,0,0,1,5.4,1.21a3,3,0,0,1,5.4,1.81C10.8,6.8,7.3,9.03,5.73,9.56Z" transform="translate(6.6 7.89)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
-          <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
-        </g>
-      </g>
-    </g>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+#pop{transform-origin:center;transform-box:fill-box;animation:pulsecust 2s linear infinite}@keyframes pulsecust{0%{transform:scale(1)}50%{transform:scale(1.4)}100%{transform:scale(1)}}
+</style>
+<g id="favorite_list 1">
+<g id="Group 4305">
+<g id="heart-circle/twotone">
+<g id="vuesax/twotone/heart-circle">
+<g id="heart-circle">
+<path id="Vector" d="M22 12C22 13.9778 21.4135 15.9112 20.3147 17.5557C19.2159 19.2002 17.6541 20.4819 15.8268 21.2388C13.9996 21.9957 11.9889 22.1937 10.0491 21.8079C8.10929 21.422 6.32746 20.4696 4.92893 19.0711C3.53041 17.6725 2.578 15.8907 2.19215 13.9509C1.8063 12.0111 2.00433 10.0004 2.76121 8.17317C3.51808 6.3459 4.79981 4.78412 6.4443 3.6853C8.08879 2.58649 10.0222 2 12 2C14.6522 2 17.1957 3.05357 19.0711 4.92893C20.9464 6.8043 22 9.34784 22 12Z" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="pop" opacity="0.4" d="M12.33 17.45C12.1107 17.51 11.8793 17.51 11.66 17.45C10.1 16.92 6.6 14.69 6.6 10.91C6.59789 10.2795 6.79449 9.66436 7.16187 9.15195C7.52925 8.63953 8.04874 8.25589 8.64656 8.05551C9.24438 7.85513 9.89013 7.8482 10.4921 8.0357C11.0941 8.2232 11.6217 8.59559 12 9.1C12.3783 8.59559 12.9059 8.2232 13.5079 8.0357C14.1099 7.8482 14.7556 7.85513 15.3534 8.05551C15.9513 8.25589 16.4707 8.63953 16.8381 9.15195C17.2055 9.66436 17.4021 10.2795 17.4 10.91C17.4 14.69 13.9 16.92 12.33 17.45Z" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>

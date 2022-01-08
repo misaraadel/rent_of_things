@@ -1,14 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g id="Group_4297" data-name="Group 4297" transform="translate(-337 -196)">
-    <g id="layer_twotone" data-name="layer/twotone" transform="translate(337 196)">
-      <g id="vuesax_twotone_layer" data-name="vuesax/twotone/layer">
-        <g id="layer">
-          <path id="Vector" d="M9.615.225l5.9,2.62c1.7.75,1.7,1.99,0,2.74L9.615,8.2a3.42,3.42,0,0,1-2.44,0l-5.9-2.62c-1.7-.75-1.7-1.99,0-2.74l5.9-2.62A3.42,3.42,0,0,1,9.615.225Z" transform="translate(3.395 2.695)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-          <path id="Vector-2" data-name="Vector" d="M0,0A2.562,2.562,0,0,0,1.4,2.15L8.19,5.17a1.988,1.988,0,0,0,1.62,0L16.6,2.15A2.562,2.562,0,0,0,18,0" transform="translate(3 11)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
-          <path id="Vector-3" data-name="Vector" d="M0,0A2.357,2.357,0,0,0,1.4,2.15L8.19,5.17a1.988,1.988,0,0,0,1.62,0L16.6,2.15A2.357,2.357,0,0,0,18,0" transform="translate(3 16)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
-          <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
-        </g>
-      </g>
-    </g>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+#list_1,#list_2{transform-origin:center;transform-box:fill-box;animation:translateY 3s linear infinite}@keyframes translateY{0%,100%{transform:translateY(0px)}50%{transform:translateY(-4px)}}
+</style>
+<g id="category_list 1">
+<g id="Group 4297">
+<g id="layer/twotone">
+<g id="vuesax/twotone/layer">
+<g id="layer">
+<path id="Vector" d="M13.01 2.92L18.91 5.54C20.61 6.29 20.61 7.53 18.91 8.28L13.01 10.895C12.2243 11.195 11.3557 11.195 10.57 10.895L4.67 8.275C2.97 7.525 2.97 6.285 4.67 5.535L10.57 2.915C11.3563 2.61661 12.2249 2.61839 13.01 2.92V2.92Z" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="list_1" opacity="0.4" d="M3 11C3.02376 11.4498 3.16569 11.8854 3.41148 12.2629C3.65727 12.6403 3.99824 12.9463 4.4 13.15L11.19 16.17C11.4449 16.2837 11.7209 16.3425 12 16.3425C12.2791 16.3425 12.5551 16.2837 12.81 16.17L19.6 13.15C20.0018 12.9463 20.3427 12.6403 20.5885 12.2629C20.8343 11.8854 20.9762 11.4498 21 11" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="list_2" opacity="0.4" d="M3 16C3.00077 16.4553 3.13339 16.9006 3.38184 17.2822C3.63028 17.6637 3.98392 17.9651 4.4 18.15L11.19 21.17C11.4449 21.2837 11.7209 21.3425 12 21.3425C12.2791 21.3425 12.5551 21.2837 12.81 21.17L19.6 18.15C20.0161 17.9651 20.3697 17.6637 20.6182 17.2822C20.8666 16.9006 20.9992 16.4553 21 16" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>

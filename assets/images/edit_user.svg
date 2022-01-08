@@ -1,15 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g id="Group_4292" data-name="Group 4292" transform="translate(-644 -348)">
-    <g id="user-edit_twotone" data-name="user-edit/twotone" transform="translate(644 348)">
-      <g id="vuesax_twotone_user-edit" data-name="vuesax/twotone/user-edit">
-        <g id="user-edit">
-          <path id="Vector" d="M10,5A5,5,0,1,1,5,0,5,5,0,0,1,10,5Z" transform="translate(7 2)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-          <path id="Vector-2" data-name="Vector" d="M4.039.573.5,4.113a1.232,1.232,0,0,0-.3.59l-.19,1.35a.635.635,0,0,0,.76.76l1.35-.19a1.189,1.189,0,0,0,.59-.3l3.54-3.54a1.365,1.365,0,0,0,0-2.22A1.36,1.36,0,0,0,4.039.573Z" transform="translate(15.171 15.167)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-          <path id="Vector-3" data-name="Vector" d="M0,0A3.185,3.185,0,0,0,2.22,2.22" transform="translate(18.7 16.25)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-          <path id="Vector-4" data-name="Vector" d="M0,7C0,3.13,3.85,0,8.59,0a10.3,10.3,0,0,1,2.97.43" transform="translate(3.41 15)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
-          <path id="Vector-5" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
-        </g>
-      </g>
-    </g>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+ #rotate{
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: rotate 1s linear infinite;
+ } 
+
+ @keyframes rotate {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+</style>
+<g id="edit_user 1">
+<g id="Group 4292">
+<g id="user-edit/twotone">
+<g id="vuesax/twotone/user-edit">
+<g id="user-edit">
+<path id="Vector" d="M17 7C17 7.98891 16.7068 8.95561 16.1573 9.77785C15.6079 10.6001 14.827 11.241 13.9134 11.6194C12.9998 11.9978 11.9945 12.0969 11.0245 11.9039C10.0546 11.711 9.16373 11.2348 8.46447 10.5355C7.7652 9.83627 7.289 8.94536 7.09607 7.97545C6.90315 7.00555 7.00216 6.00021 7.3806 5.08658C7.75904 4.17295 8.3999 3.39206 9.22215 2.84265C10.0444 2.29324 11.0111 2 12 2C13.3261 2 14.5979 2.52678 15.5355 3.46447C16.4732 4.40215 17 5.67392 17 7Z" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="rotate">
+<path id="Vector_2" d="M19.21 15.74L15.671 19.28C15.5191 19.4456 15.4153 19.6497 15.371 19.87L15.181 21.22C15.1572 21.3247 15.1603 21.4337 15.1901 21.5368C15.2198 21.64 15.2753 21.7339 15.3512 21.8098C15.4271 21.8857 15.521 21.9412 15.6242 21.9709C15.7273 22.0007 15.8363 22.0038 15.941 21.98L17.291 21.79C17.5121 21.7479 17.7167 21.6438 17.881 21.49L21.421 17.95C21.5975 17.8237 21.7413 17.6571 21.8406 17.464C21.9398 17.271 21.9916 17.0571 21.9916 16.84C21.9916 16.6229 21.9398 16.409 21.8406 16.216C21.7413 16.0229 21.5975 15.8563 21.421 15.73C21.2943 15.5549 21.1277 15.4125 20.935 15.3146C20.7423 15.2167 20.5291 15.1661 20.3129 15.1671C20.0968 15.1681 19.884 15.2206 19.6922 15.3202C19.5004 15.4198 19.3351 15.5637 19.21 15.74V15.74Z" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M18.7 16.25C18.8468 16.7803 19.1284 17.2635 19.5175 17.6525C19.9065 18.0416 20.3897 18.3232 20.92 18.47" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Vector_4" opacity="0.4" d="M3.41 22C3.41 18.13 7.26 15 12 15C13.0057 14.9976 14.0063 15.1424 14.97 15.43" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>

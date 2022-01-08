@@ -1,13 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g id="Group_4303" data-name="Group 4303" transform="translate(-313 -109)">
-    <g id="messages-2_twotone" data-name="messages-2/twotone" transform="translate(313 109)">
-      <g id="vuesax_twotone_messages-2" data-name="vuesax/twotone/messages-2">
-        <g id="messages-2">
-          <path id="Vector" d="M14.13,14.83l.39,3.16a1,1,0,0,1-1.5.98L8.83,16.48a9.982,9.982,0,0,1-1.35-.09,4.861,4.861,0,0,0,1.18-3.16,5.327,5.327,0,0,0-5.5-5.14A5.683,5.683,0,0,0,.04,9,6.339,6.339,0,0,1,0,8.24C0,3.69,3.95,0,8.83,0s8.83,3.69,8.83,8.24A8.054,8.054,0,0,1,14.13,14.83Z" transform="translate(4.34 2)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
-          <path id="Vector-2" data-name="Vector" d="M11,5.14A4.861,4.861,0,0,1,9.82,8.3,5.584,5.584,0,0,1,5.5,10.27L2.89,11.82a.625.625,0,0,1-.94-.61L2.2,9.24A4.988,4.988,0,0,1,0,5.14,5.023,5.023,0,0,1,2.38.91,5.683,5.683,0,0,1,5.5,0,5.327,5.327,0,0,1,11,5.14Z" transform="translate(2 10.09)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-          <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
-        </g>
-      </g>
-    </g>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+#rotate{transform-origin:center;transform-box:fill-box;animation:pulsecust 2s linear infinite}@keyframes pulsecust{0%{transform:rotate(0deg)}50%{transform:rotate(10deg)}100%{transform:rotate(0deg)}}
+</style>
+<g id="chat 1">
+<g id="Group 4303">
+<g id="messages-2/twotone">
+<g id="vuesax/twotone/messages-2">
+<g id="messages-2">
+<path id="Vector" opacity="0.4" d="M18.47 16.83L18.86 19.99C18.882 20.175 18.8519 20.3624 18.7731 20.5312C18.6943 20.6999 18.5699 20.8433 18.4139 20.9452C18.258 21.0471 18.0767 21.1034 17.8905 21.1078C17.7043 21.1122 17.5206 21.0644 17.36 20.97L13.17 18.48C12.7185 18.4806 12.2674 18.4505 11.82 18.39C12.5779 17.5113 12.9965 16.3904 13 15.23C12.9512 13.8194 12.3446 12.4858 11.3134 11.5221C10.2822 10.5584 8.91067 10.0433 7.5 10.09C6.39359 10.0831 5.30924 10.3994 4.38 11C4.35146 10.7477 4.3381 10.4939 4.34 10.24C4.34 5.69 8.29 2 13.17 2C18.05 2 22 5.69 22 10.24C21.9881 11.542 21.6607 12.8217 21.0459 13.9694C20.4311 15.1171 19.5472 16.0987 18.47 16.83V16.83Z" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="rotate" d="M13 15.23C12.9965 16.3904 12.5779 17.5113 11.82 18.39C11.2889 19.0156 10.6265 19.5165 9.87981 19.857C9.13314 20.1975 8.32059 20.3692 7.5 20.36L4.89 21.91C4.7898 21.9695 4.67494 21.9999 4.55841 21.9976C4.44187 21.9953 4.32831 21.9604 4.23053 21.897C4.13276 21.8335 4.05468 21.744 4.00511 21.6385C3.95553 21.533 3.93645 21.4158 3.95 21.3L4.2 19.33C3.5277 18.8769 2.97598 18.2667 2.59264 17.5522C2.2093 16.8378 2.00588 16.0407 2 15.23C2.00702 14.3813 2.22899 13.5482 2.64518 12.8085C3.06138 12.0688 3.65822 11.4466 4.38 11C5.30924 10.3994 6.39359 10.0831 7.5 10.09C8.91067 10.0433 10.2822 10.5584 11.3134 11.5221C12.3446 12.4858 12.9512 13.8194 13 15.23V15.23Z" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>

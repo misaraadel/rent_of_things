@@ -1,16 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g id="Group_4301" data-name="Group 4301" transform="translate(-310 -138)">
-    <g id="back-square_twotone" data-name="back-square/twotone" transform="translate(310 138)">
-      <g id="vuesax_twotone_back-square" data-name="vuesax/twotone/back-square">
-        <g id="back-square">
-          <path id="Vector" d="M7,20h6c5,0,7-2,7-7V7c0-5-2-7-7-7H7C2,0,0,2,0,7v6C0,18,2,20,7,20Z" transform="translate(2 2)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-          <g id="Group_46" data-name="Group 46" opacity="0.4">
-            <path id="Vector-2" data-name="Vector" d="M1.85,6.16H6.77A3.08,3.08,0,1,0,6.77,0H0" transform="translate(7.15 9.22)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-            <path id="Vector-3" data-name="Vector" d="M1.57,3.15,0,1.57,1.57,0" transform="translate(7 7.62)" fill="none" stroke="#bc8b46" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
-          </g>
-          <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
-        </g>
-      </g>
-    </g>
-  </g>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+#pop{transform-origin:center;transform-box:fill-box;animation:pulsecust 2s linear infinite}@keyframes pulsecust{0%{transform:scale(1)}50%{transform:scale(1.4)}100%{transform:scale(1)}}
+</style>
+<g id="reactive_request 1">
+<g id="Group 4301">
+<g id="back-square/twotone">
+<g id="vuesax/twotone/back-square">
+<g id="back-square">
+<path id="Vector" d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="pop" opacity="0.4">
+<path id="Vector_2" opacity="0.4" d="M9 15.38H13.92C14.7369 15.38 15.5203 15.0555 16.0979 14.4779C16.6755 13.9003 17 13.1169 17 12.3C17 11.4831 16.6755 10.6997 16.0979 10.1221C15.5203 9.5445 14.7369 9.22 13.92 9.22H7.15" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" opacity="0.4" d="M8.57 10.77L7 9.19L8.57 7.62" stroke="#BC8B46" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
 </svg>

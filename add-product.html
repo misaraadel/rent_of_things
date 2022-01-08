@@ -14,7 +14,7 @@
         </title>
 
         <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon"/>
-        
+
         <link rel="stylesheet" href="assets/css/lib/all.min.css">
 
         <link rel="stylesheet" href="assets/css/lib/animate.css">
@@ -465,301 +465,139 @@
                     <div class="row">
                         <div class="content">
                             <h4 class="sub-head">
-                                كل الأقسام
+                                أضف منتج تأجير
                             </h4>
-
-                            <ul class="sub-list">
-                                <li class="sub-item">
-                                    <a href="index.html" class="link">
-                                        الرئيسية
-                                    </a>
-                                </li>
-
-                                <li class="sub-item">
-                                    <span class="title">
-                                        كل الأقسام
-                                    </span>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="browse-product general-section">
+            <section class="add-new-product general-section bottom-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html"class="box blue  wow bounceInUp">
-                                <img
-                                    src="assets/images/electronics.svg"
-                                    alt=""
-                                    class="box-img" />
+                        <div class="col-lg-7 col-12 m-auto">
+                            <form class="form-content wow fadeInUp">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="عنوان منتج التأجير" />
+                                </div>   
+                                <div class="form-group select-option">
+                                    <select class="form-control">
+                                        <option value=" ">
+                                            اختر القسم
+                                        </option>
 
-                                <h4>
-                                    الأجهزة الكهربية
-                                </h4>
-                            </a>
-                        </div>
+                                        <option value=" ">
+                                            اختر القسم
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="form-group select-option">
+                                    <select class="form-control">
+                                        <option value=" ">
+                                            المدينة
+                                        </option>
 
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box red wow bounceInUp">
-                                <img
-                                    src="assets/images/book.svg"
-                                    alt=""
-                                    class="box-img" />
+                                        <option value=" ">
+                                            المدينة
+                                        </option>
+                                    </select>
+                                </div>
 
-                                <h4>
-                                    الكتب والملازم
-                                </h4>
-                            </a>
-                        </div>
+                                <div class="form-group textarea">
+                                    <textarea name="" class="form-control"  placeholder="ادخل العنوان بالتفصيل"  id="" cols="30" rows="10"></textarea>
+                                </div> 
 
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box blue  wow bounceInUp">
-                                <img
-                                    src="assets/images/security_camera.svg"
-                                    alt=""
-                                    class="box-img" />
+                                <div class="form-group">
+                                    <div class="text-contain">
+                                        ريال / الليلة
+                                    </div>
+                                    <input type="text" class="form-control" placeholder=" السعر / الليلة الواحدة "/>
+                                </div>
 
-                                <h4>
-                                    الأجهزة الأمنية
-                                </h4>
-                            </a>
-                        </div>
+                                <div class="form-group">
+                                    <div class="icon-contain">
+                                        <img src="assets/images/calendar_bulk.svg" alt="">
+                                    </div>
+                                    <input type="text" class="form-control" placeholder=" تاريخ بدء الإيجار "/>
+                                </div>
 
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box yellow wow bounceInUp">
-                                <img
-                                    src="assets/images/bulldozing.svg"
-                                    alt=""
-                                    class="box-img" />
+                                <div class="form-group">
+                                    <div class="icon-contain">
+                                        <img src="assets/images/calendar_bulk.svg" alt="">
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="  تاريخ نهاية الإيجار "/>
+                                </div>
 
-                                <h4>
-                                    المعدات الثقيلة
-                                </h4>
-                            </a>
-                        </div>
+                                <div class="form-group textarea">
+                                    <textarea name="" class="form-control"  placeholder=" أدخل تفاصيل منتج الإيجار"  id="" cols="30" rows="10"></textarea>
+                                </div> 
 
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box semi-blue wow bounceInUp">
-                                <img
-                                    src="assets/images/responsive.svg"
-                                    alt=""
-                                    class="box-img" />
+                                <div class="form-group payment-img-contain">
+                                    <input type="file" id="paymentFile" accept="image/" multiple/>
 
-                                <h4>
-                                    الأجهزة الإلكترونية
-                                </h4>
-                            </a>
-                        </div>
+                                    <label for="paymentFile" class="form-label-shape">
+                                        <img src="assets/images/upload.svg" class="upload-icon" alt="" />
+                                        <span class="title">ارفق صورة التحويل</span>
+                                    </label>
+                                </div>
 
-                    </div>
+                                <div class="row">
+                                    <div class="col-lg-4 col-6 mb-1 px-2">
+                                        <div class="payment-img-content">
+                                            <img src="assets/images/product_1.jpg" alt="" />
+    
+                                            <div class="remove-Img">
+                                                <img src="assets/images/removeImg.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
 
-                    <div class="row">
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box dark-blue wow bounceInUp">
-                                <img
-                                    src="assets/images/research.svg"
-                                    alt=""
-                                    class="box-img" />
+                                    <div class="col-lg-4 col-6 mb-1 px-2">
+                                        <div class="payment-img-content">
+                                            <img src="assets/images/product_1.jpg" alt="" />
+                                            <div class="remove-Img">
+                                                <img src="assets/images/removeImg.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                <h4>
-                                    الأجهزة الطبية
-                                </h4>
-                            </a>
-                        </div>
+                                    <div class="col-lg-4 col-6 mb-1 px-2">
+                                        <div class="payment-img-content">
+                                            <img src="assets/images/product_1.jpg" alt="" />
+                                            <div class="remove-Img">
+                                                <img src="assets/images/removeImg.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box yellow wow bounceInUp">
-                                <img
-                                    src="assets/images/flat.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    الأثاث المنزلي
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box green wow bounceInUp">
-                                <img
-                                    src="assets/images/camera.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    أدوات التصوير
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box red-dark wow bounceInUp">
-                                <img
-                                    src="assets/images/car.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    السيارات
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box red-dark wow bounceInUp">
-                                <img
-                                    src="assets/images/motorbike.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    الدراجات الهوائية
-                                </h4>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box blue  wow bounceInUp">
-                                <img
-                                    src="assets/images/electronics.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    الأجهزة الكهربية
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box red wow bounceInUp">
-                                <img
-                                    src="assets/images/book.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    الكتب والملازم
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box blue  wow bounceInUp">
-                                <img
-                                    src="assets/images/security_camera.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    الأجهزة الأمنية
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box yellow wow bounceInUp">
-                                <img
-                                    src="assets/images/bulldozing.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    المعدات الثقيلة
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box semi-blue wow bounceInUp">
-                                <img
-                                    src="assets/images/responsive.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    الأجهزة الإلكترونية
-                                </h4>
-                            </a>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box dark-blue wow bounceInUp">
-                                <img
-                                    src="assets/images/research.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    الأجهزة الطبية
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box yellow wow bounceInUp">
-                                <img
-                                    src="assets/images/flat.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    الأثاث المنزلي
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box green wow bounceInUp">
-                                <img
-                                    src="assets/images/camera.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    أدوات التصوير
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box red-dark wow bounceInUp">
-                                <img
-                                    src="assets/images/car.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    السيارات
-                                </h4>
-                            </a>
-                        </div>
-
-                        <div class="col-lg-2 col-md-6 col-12 p-0 mx-auto mb-4">
-                            <a href="cars_category.html" class="box red-dark wow bounceInUp">
-                                <img
-                                    src="assets/images/motorbike.svg"
-                                    alt=""
-                                    class="box-img" />
-
-                                <h4>
-                                    الدراجات الهوائية
-                                </h4>
-                            </a>
+                                <div class="button-contain service-contain mt-4">
+                                    <a href="#" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#AddProductModal">
+                                        <span class="btn-data">
+                                            إضافة منتج
+                                        </span>
+                                    </a>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
+
+        <div class="modal fade" id="AddProductModal" tabindex="-1" aria-labelledby="AddProductModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/images/success_transition.svg" alt="">
+
+                        <h6 class="done">
+                            تم إضافة منتج التأجير بنجاح
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section class="browse-product pop-up-products general-section">
             <div class="container">

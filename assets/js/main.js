@@ -27,6 +27,10 @@ $(document).ready(function () {
         $('body').toggleClass('overflowNone')
     });
 
+    $('.nav-link-toggle').click(function(){
+        $('.pop-up-products').toggleClass('active-popup');
+    });
+
     //Wow intit
     wow = new WOW({
         boxClass: 'wow',
@@ -210,3 +214,15 @@ function passAgain(){
         AgainPass = true;
     }
 }
+
+var oldPass = false;
+function oldPassFun(){
+    if(oldPass){
+        document.getElementById("oldPassId").setAttribute("type" , "password");
+        oldPass = false;
+    }else{
+        document.getElementById("oldPassId").setAttribute("type" , "text");
+        oldPass = true;
+    }
+}
+
