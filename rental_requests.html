@@ -465,137 +465,767 @@
                     <div class="row">
                         <div class="content">
                             <h4 class="sub-head">
-                                أضف منتج تأجير
+                                طلبات التأجير
                             </h4>
                         </div>
                     </div>
                 </div>
             </section>
-
-            <section class="add-new-product general-section bottom-padding">
+            
+            <section class="all-requests general-section bottom-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-7 col-12 m-auto">
-                            <form class="form-content wow fadeInUp">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="عنوان منتج التأجير" />
-                                </div>  
+                        <div class="col-lg-4 col-12 mb-4">
+                            <div class="heading-data">
+                                <h4>
+                                    فرز الطلبات
+                                </h4>
 
-                                <div class="form-group select-option">
-                                    <select class="form-control">
-                                        <option value=" ">
-                                            اختر القسم
-                                        </option>
+                                <p>
+                                قم بفرز طلبات الإيجار
+                                </p>
+                            </div>
 
-                                        <option value=" ">
-                                            اختر القسم
-                                        </option>
-                                    </select>
-                                </div>
-                                
-                                <div class="form-group select-option">
-                                    <select class="form-control">
-                                        <option value=" ">
-                                            المدينة
-                                        </option>
+                            <form class="form-content">
+                                <div class="form-data">
+                                    <h4 class="head-contain">
+                                        عرض طلبات الإيجار كـ
+                                    </h4>
 
-                                        <option value=" ">
-                                            المدينة
-                                        </option>
-                                    </select>
-                                </div>
+                                    <div class="wrapper">
+                                        <input type="radio" class="radio-check"/>
 
-                                <div class="form-group textarea">
-                                    <textarea name="" class="form-control"  placeholder="ادخل العنوان بالتفصيل"  id="" cols="30" rows="10"></textarea>
-                                </div> 
+                                        <label class="radio-title">
+                                        طلباتك كمستأجر
+                                        </label>
+                                    </div> 
 
-                                <div class="form-group">
-                                    <div class="text-contain">
-                                        ريال / الليلة
-                                    </div>
-                                    <input type="text" class="form-control" placeholder=" السعر / الليلة الواحدة "/>
-                                </div>
+                                    <div class="wrapper border-shape">
+                                        <input type="radio" class="radio-check"/>
 
-                                <div class="form-group">
-                                    <div class="icon-contain">
-                                        <img src="assets/images/calendar_bulk.svg" alt="">
-                                    </div>
-                                    <input type="text" class="form-control" placeholder=" تاريخ بدء الإيجار "/>
-                                </div>
-
-                                <div class="form-group">
-                                    <div class="icon-contain">
-                                        <img src="assets/images/calendar_bulk.svg" alt="">
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="  تاريخ نهاية الإيجار "/>
-                                </div>
-
-                                <div class="form-group textarea">
-                                    <textarea name="" class="form-control"  placeholder=" أدخل تفاصيل منتج الإيجار"  id="" cols="30" rows="10"></textarea>
-                                </div> 
-
-                                <div class="form-group payment-img-contain">
-                                    <input type="file" id="paymentFile" accept="image/" multiple/>
-
-                                    <label for="paymentFile" class="form-label-shape">
-                                        <img src="assets/images/upload.svg" class="upload-icon" alt="" />
-                                        <span class="title"> أضف صور المنتج</span>
-                                    </label>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-lg-4 col-6 mb-1 px-2">
-                                        <div class="payment-img-content">
-                                            <img src="assets/images/product_1.jpg" alt="" />
-    
-                                            <div class="remove-Img">
-                                                <img src="assets/images/removeImg.svg" alt="">
-                                            </div>
-                                        </div>
+                                        <label class="radio-title">
+                                        طلباتك كمؤجر
+                                        </label>
                                     </div>
 
-                                    <div class="col-lg-4 col-6 mb-1 px-2">
-                                        <div class="payment-img-content">
-                                            <img src="assets/images/product_1.jpg" alt="" />
-                                            <div class="remove-Img">
-                                                <img src="assets/images/removeImg.svg" alt="">
-                                            </div>
-                                        </div>
+                                    <h4 class="head-contain padding">
+                                        حسب حالة الطلب
+                                    </h4>
+
+                                    <div class="wrapper">
+                                        <input type="radio" class="radio-check"/>
+
+                                        <label class="radio-title">
+                                            كل الطلبات      
+                                        </label>
+                                    </div> 
+
+                                    <div class="wrapper">
+                                        <input type="radio" class="radio-check"/>
+
+                                        <label class="radio-title">
+                                            جديد
+                                        </label>
+                                    </div> 
+
+                                    <div class="wrapper">
+                                        <input type="radio" class="radio-check"/>
+
+                                        <label class="radio-title">
+                                            مقبول
+                                        </label>
+                                    </div> 
+
+                                    <div class="wrapper">
+                                        <input type="radio" class="radio-check"/>
+
+                                        <label class="radio-title">
+                                            تحت التأجير
+                                        </label>
+                                    </div> 
+
+                                    <div class="wrapper">
+                                        <input type="radio" class="radio-check"/>
+
+                                        <label class="radio-title">
+                                            منتهي
+                                        </label>
                                     </div>
 
-                                    <div class="col-lg-4 col-6 mb-1 px-2">
-                                        <div class="payment-img-content">
-                                            <img src="assets/images/product_1.jpg" alt="" />
-                                            <div class="remove-Img">
-                                                <img src="assets/images/removeImg.svg" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                    <div class="wrapper">
+                                        <input type="radio" class="radio-check"/>
 
-                                <div class="button-contain service-contain mt-4">
-                                    <a href="#" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#AddProductModal">
-                                        <span class="btn-data">
-                                            إضافة منتج
-                                        </span>
-                                    </a>
+                                        <label class="radio-title">
+                                            تم التسليم
+                                        </label>
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <input type="radio" class="radio-check"/>
+
+                                        <label class="radio-title">
+                                            ملغي
+                                        </label>
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <input type="radio" class="radio-check"/>
+
+                                        <label class="radio-title">
+                                            مرفوض
+                                        </label>
+                                    </div>
                                 </div>
                             </form>
+                        </div>
+
+                        <div class="col-lg-8 col-12">
+                            <div class="heading-data">
+                                <h4>
+                                    طلبات كمؤجر
+
+                                    <span>(7)</span>
+                                </h4>
+
+                                <p>
+                                    قائمة طلباتك كمؤجر لمنتجات التأجير المتنوعة
+                                </p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <div class="request-box wow fadeInUp">
+                                        <div class="request-image">
+                                            <img src="assets/images/product_1.jpg" alt="" />
+                                        </div>
+
+                                        <div class="request-content">
+                                            <div class="flex-data">
+                                                <ul class="product-category-type">
+                                                    <li class="product-category-item ">
+                                                        <span class="product-category-content">
+                                                            السيارات
+                                                        </span>
+                                                    </li>
+            
+                                                    <li class="product-category-item">
+                                                        <span class="product-category-content">
+                                                            مكة المكرمة
+                                                        </span>
+                                                    </li>
+                                                </ul>
+
+                                                <p class="price">
+                                                    <span class="price-count">
+                                                        500
+                                                    </span>
+
+                                                    ريال / 3 أيام
+                                                </p>
+                                            </div>
+
+                                            <h4 class="request-head-box">
+                                                سيارة كيا سبورتاج للايجار في مكة متاحة الأن بأفضل سعر لكل الفئات
+                                            </h4>
+
+                                            <div class="product-user">
+                                                <img
+                                                    src="assets/images/gray_user.svg"
+                                                    class="user-icon"
+                                                    alt="" />
+        
+                                                <span class="user-name">
+                                                    مازن محمود
+                                                </span>
+                                            </div>
+
+                                            <ul class="request-info">
+                                                <li>
+                                                    <span class="request-name">
+                                                        حالة الطلب
+                                                    </span>
+
+                                                    <span class="request-state gold">
+                                                        جديد
+                                                    </span>
+                                                </li>
+
+                                                <li>
+                                                    <span class="request-name">
+                                                        رقم الطلب :
+                                                    </span>
+
+                                                    <span class="request-number">
+                                                        9897787454
+                                                    </span>
+                                                </li>
+                                            </ul>
+
+                                            <div class="button-contain">
+                                                <a href="#" class="btn-img-contain gold-bk " data-toggle="modal" data-target="#acceptRequestModal">
+                                                    <img
+                                                        src="assets/images/check_contain.svg"
+                                                        class="btn-img"
+                                                        alt="">
+                    
+                                                    <span class="btn-data">
+                                                        قبول الطلب
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="btn-img-contain red-bk" data-toggle="modal" data-target="#cancelRequestModal">
+                                                    <img
+                                                        src="assets/images/cancle.svg"
+                                                        class="btn-img"
+                                                        alt="">
+                    
+                                                    <span class="btn-data">
+                                                        الغاء الطلب
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 mb-4">
+                                    <div class="request-box wow fadeInUp">
+                                        <div class="request-image">
+                                            <img src="assets/images/product_1.jpg" alt="" />
+                                        </div>
+
+                                        <div class="request-content">
+                                            <div class="flex-data">
+                                                <ul class="product-category-type">
+                                                    <li class="product-category-item ">
+                                                        <span class="product-category-content">
+                                                            السيارات
+                                                        </span>
+                                                    </li>
+            
+                                                    <li class="product-category-item">
+                                                        <span class="product-category-content">
+                                                            مكة المكرمة
+                                                        </span>
+                                                    </li>
+                                                </ul>
+
+                                                <p class="price">
+                                                    <span class="price-count">
+                                                        500
+                                                    </span>
+
+                                                    ريال / 3 أيام
+                                                </p>
+                                            </div>
+
+                                            <h4 class="request-head-box">
+                                                سيارة كيا سبورتاج للايجار في مكة متاحة الأن بأفضل سعر لكل الفئات
+                                            </h4>
+
+                                            <div class="product-user">
+                                                <img
+                                                    src="assets/images/gray_user.svg"
+                                                    class="user-icon"
+                                                    alt="" />
+        
+                                                <span class="user-name">
+                                                    مازن محمود
+                                                </span>
+                                            </div>
+
+                                            <ul class="request-info">
+                                                <li>
+                                                    <span class="request-name">
+                                                        حالة الطلب
+                                                    </span>
+
+                                                    <span class="request-state blue">
+                                                        مقبول
+                                                    </span>
+                                                </li>
+
+                                                <li>
+                                                    <span class="request-name">
+                                                        رقم الطلب :
+                                                    </span>
+
+                                                    <span class="request-number">
+                                                        9897787454
+                                                    </span>
+                                                </li>
+                                            </ul>
+
+                                            <div class="button-contain">
+                                                <a href="#" class="btn-img-contain gold-bk full-width" data-toggle="modal" data-target="#messageModal">
+                                                    <img
+                                                        src="assets/images/message.svg"
+                                                        class="btn-img"
+                                                        alt="">
+                    
+                                                    <span class="btn-data">
+                                                        مراسلة المؤجر
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 mb-4">
+                                    <div class="request-box wow fadeInUp">
+                                        <div class="request-image">
+                                            <img src="assets/images/product_1.jpg" alt="" />
+                                        </div>
+
+                                        <div class="request-content">
+                                            <div class="flex-data">
+                                                <ul class="product-category-type">
+                                                    <li class="product-category-item ">
+                                                        <span class="product-category-content">
+                                                            السيارات
+                                                        </span>
+                                                    </li>
+            
+                                                    <li class="product-category-item">
+                                                        <span class="product-category-content">
+                                                            مكة المكرمة
+                                                        </span>
+                                                    </li>
+                                                </ul>
+
+                                                <p class="price">
+                                                    <span class="price-count">
+                                                        500
+                                                    </span>
+
+                                                    ريال / 3 أيام
+                                                </p>
+                                            </div>
+
+                                            <h4 class="request-head-box">
+                                                سيارة كيا سبورتاج للايجار في مكة متاحة الأن بأفضل سعر لكل الفئات
+                                            </h4>
+
+                                            <div class="product-user">
+                                                <img
+                                                    src="assets/images/gray_user.svg"
+                                                    class="user-icon"
+                                                    alt="" />
+        
+                                                <span class="user-name">
+                                                    مازن محمود
+                                                </span>
+                                            </div>
+
+                                            <ul class="request-info">
+                                                <li>
+                                                    <span class="request-name">
+                                                        حالة الطلب
+                                                    </span>
+
+                                                    <span class="request-state semigreen">
+                                                        تحت التأجير
+                                                    </span>
+                                                </li>
+
+                                                <li>
+                                                    <span class="request-name">
+                                                        رقم الطلب :
+                                                    </span>
+
+                                                    <span class="request-number">
+                                                        9897787454
+                                                    </span>
+                                                </li>
+                                            </ul>
+
+                                            <div class="button-contain">
+                                                <a href="#" class="btn-img-contain full-width green-bk" data-toggle="modal" data-target="#rateModal">
+                                                    <img
+                                                        src="assets/images/white_star.svg"
+                                                        class="btn-img"
+                                                        alt="">
+                    
+                                                    <span class="btn-data">
+                                                        أضف تقييم
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 mb-4">
+                                    <div class="request-box wow fadeInUp">
+                                        <div class="request-image">
+                                            <img src="assets/images/product_1.jpg" alt="" />
+                                        </div>
+
+                                        <div class="request-content">
+                                            <div class="flex-data">
+                                                <ul class="product-category-type">
+                                                    <li class="product-category-item ">
+                                                        <span class="product-category-content">
+                                                            السيارات
+                                                        </span>
+                                                    </li>
+            
+                                                    <li class="product-category-item">
+                                                        <span class="product-category-content">
+                                                            مكة المكرمة
+                                                        </span>
+                                                    </li>
+                                                </ul>
+
+                                                <p class="price">
+                                                    <span class="price-count">
+                                                        500
+                                                    </span>
+
+                                                    ريال / 3 أيام
+                                                </p>
+                                            </div>
+
+                                            <h4 class="request-head-box">
+                                                سيارة كيا سبورتاج للايجار في مكة متاحة الأن بأفضل سعر لكل الفئات
+                                            </h4>
+
+                                            <div class="product-user">
+                                                <img
+                                                    src="assets/images/gray_user.svg"
+                                                    class="user-icon"
+                                                    alt="" />
+        
+                                                <span class="user-name">
+                                                    مازن محمود
+                                                </span>
+                                            </div>
+
+                                            <ul class="request-info">
+                                                <li>
+                                                    <span class="request-name">
+                                                        حالة الطلب
+                                                    </span>
+
+                                                    <span class="request-state darkGreen">
+                                                        تم التسليم
+                                                    </span>
+                                                </li>
+
+                                                <li>
+                                                    <span class="request-name">
+                                                        رقم الطلب :
+                                                    </span>
+
+                                                    <span class="request-number">
+                                                        9897787454
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 mb-4">
+                                    <div class="request-box wow fadeInUp">
+                                        <div class="request-image">
+                                            <img src="assets/images/product_1.jpg" alt="" />
+                                        </div>
+
+                                        <div class="request-content">
+                                            <div class="flex-data">
+                                                <ul class="product-category-type">
+                                                    <li class="product-category-item ">
+                                                        <span class="product-category-content">
+                                                            السيارات
+                                                        </span>
+                                                    </li>
+            
+                                                    <li class="product-category-item">
+                                                        <span class="product-category-content">
+                                                            مكة المكرمة
+                                                        </span>
+                                                    </li>
+                                                </ul>
+
+                                                <p class="price">
+                                                    <span class="price-count">
+                                                        500
+                                                    </span>
+
+                                                    ريال / 3 أيام
+                                                </p>
+                                            </div>
+
+                                            <h4 class="request-head-box">
+                                                سيارة كيا سبورتاج للايجار في مكة متاحة الأن بأفضل سعر لكل الفئات
+                                            </h4>
+
+                                            <div class="product-user">
+                                                <img
+                                                    src="assets/images/gray_user.svg"
+                                                    class="user-icon"
+                                                    alt="" />
+        
+                                                <span class="user-name">
+                                                    مازن محمود
+                                                </span>
+                                            </div>
+
+                                            <ul class="request-info">
+                                                <li>
+                                                    <span class="request-name">
+                                                        حالة الطلب
+                                                    </span>
+
+                                                    <span class="request-state red">
+                                                        ملغي
+                                                    </span>
+                                                </li>
+
+                                                <li>
+                                                    <span class="request-name">
+                                                        رقم الطلب :
+                                                    </span>
+
+                                                    <span class="request-number">
+                                                        9897787454
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 mb-4">
+                                    <div class="request-box wow fadeInUp">
+                                        <div class="request-image">
+                                            <img src="assets/images/product_1.jpg" alt="" />
+                                        </div>
+
+                                        <div class="request-content">
+                                            <div class="flex-data">
+                                                <ul class="product-category-type">
+                                                    <li class="product-category-item ">
+                                                        <span class="product-category-content">
+                                                            السيارات
+                                                        </span>
+                                                    </li>
+            
+                                                    <li class="product-category-item">
+                                                        <span class="product-category-content">
+                                                            مكة المكرمة
+                                                        </span>
+                                                    </li>
+                                                </ul>
+
+                                                <p class="price">
+                                                    <span class="price-count">
+                                                        500
+                                                    </span>
+
+                                                    ريال / 3 أيام
+                                                </p>
+                                            </div>
+
+                                            <h4 class="request-head-box">
+                                                سيارة كيا سبورتاج للايجار في مكة متاحة الأن بأفضل سعر لكل الفئات
+                                            </h4>
+
+                                            <div class="product-user">
+                                                <img
+                                                    src="assets/images/gray_user.svg"
+                                                    class="user-icon"
+                                                    alt="" />
+        
+                                                <span class="user-name">
+                                                    مازن محمود
+                                                </span>
+                                            </div>
+
+                                            <ul class="request-info">
+                                                <li>
+                                                    <span class="request-name">
+                                                        حالة الطلب
+                                                    </span>
+
+                                                    <span class="request-state darkRed">
+                                                        مرفوض
+                                                    </span>
+                                                </li>
+
+                                                <li>
+                                                    <span class="request-name">
+                                                        رقم الطلب :
+                                                    </span>
+
+                                                    <span class="request-number">
+                                                        9897787454
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
         </main>
 
-        <div class="modal fade" id="AddProductModal" tabindex="-1" aria-labelledby="AddProductModalLabel" aria-hidden="true">
+        <!--cancel request-->
+        <div class="modal fade" id="cancelRequestModal" tabindex="-1" aria-labelledby="cancelRequestModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img src="assets/images/success_transition.svg" alt="">
+                        <img src="assets/images/cancel_request.svg" alt="">
 
-                        <h6 class="done">
-                            تم إضافة منتج التأجير بنجاح
-                        </h6>
+                        <h4 class="title">
+                            الغاء الطلب
+                        </h4>
+
+                        <form class="form-content">
+                            <div class="form-group textarea">
+                                <textarea name="" class="form-control" placeholder=" أدخل أسباب الغاء الطلب"  id="" cols="30" rows="10"></textarea>
+                            </div> 
+                        </form>
+
+                        <div class="flex-btn button-contain">
+                            <a href="#" class="btn-img-contain gold-bk" data-dismiss="modal">
+                                <span class="btn-data">
+                                    تأكيد
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn-img-contain gold-border" data-dismiss="modal">
+                                <span class="btn-data">
+                                    الغاء
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--message modal-->
+        <div class="modal fade" id="messageModal" tabindex="-1" aria-labelledby="messageModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/images/chat.svg" alt="">
+
+                        <h4 class="title">
+                            ارسال رسالة لـ
+                        </h4>
+
+                        <div class="customer-data mb-2">
+                            <div class="customer-image">
+                                <img src="assets/images/user.png" alt="" />
+                            </div>
+
+                            <div class="customer-content ">
+                                <div class="data">
+                                    <h4 class="customer-name">
+                                        كريم حسام الدين
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form class="form-content">
+                            <div class="form-group textarea">
+                                <textarea name="" class="form-control" placeholder="  ... اكتب رسالتك هنا "  id="" cols="30" rows="10"></textarea>
+                            </div> 
+                        </form>
+
+                        <div class="flex-btn button-contain">
+                            <a href="#" class="btn-img-contain gold-bk" data-dismiss="modal">
+                                <span class="btn-data">
+                                    ارسال رسالة
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn-img-contain gold-border" data-dismiss="modal">
+                                <span class="btn-data">
+                                    الغاء
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--accept request modal-->
+        <div class="modal fade" id="acceptRequestModal" tabindex="-1" aria-labelledby="acceptRequestModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/images/check_circle.svg" alt="">
+
+                        <h4 class="title">
+                            قبول الطلب
+                        </h4>
+
+                        <p class="done">
+                            هل تريد تأكيد قبول هذا الطلب ؟
+                        </p>
+
+                        <div class="flex-btn button-contain">
+                            <a href="#" class="btn-img-contain gold-bk" data-dismiss="modal">
+                                <span class="btn-data">
+                                    تأكيد
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn-img-contain gold-border" data-dismiss="modal">
+                                <span class="btn-data">
+                                    الغاء
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--rate modal-->
+        <div class="modal fade" id="rateModal" tabindex="-1" aria-labelledby="rateModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/images/rate.svg" alt="">
+
+                        <h4 class="title">
+                            أضف تقييمك للمستأجر
+                        </h4>
+                        <form class="form-content">
+                            <div class="flex-data justify-content-center">
+                                <img src="assets/images/stars.svg" class="stars" alt="">
+                            </div>
+                            <div class="form-group textarea">
+                                <textarea name="" class="form-control" placeholder=" ... اكتب تقييمك للمؤجر"  id="" cols="30" rows="10"></textarea>
+                            </div>  
+                        </form>
+                        
+                        
+
+                        <div class="flex-btn button-contain">
+                            <a href="#" class="btn-img-contain gold-bk" data-dismiss="modal">
+                                <span class="btn-data">
+                                    قيم الأن
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn-img-contain gold-border" data-dismiss="modal">
+                                <span class="btn-data">
+                                    الغاء
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

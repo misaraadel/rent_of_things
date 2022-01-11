@@ -1,0 +1,13 @@
+<svg id="Group_4506" data-name="Group 4506" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="magic-star_bulk" data-name="magic-star/bulk">
+    <g id="vuesax_bulk_magic-star" data-name="vuesax/bulk/magic-star">
+      <g id="magic-star">
+        <path id="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+        <g id="Group" transform="translate(2.101 2.003)">
+          <path id="Vector-2" data-name="Vector" d="M15.189,2.137l-.07,3.79a2.081,2.081,0,0,0,.74,1.52l2.48,1.88c1.59,1.2,1.33,2.67-.57,3.27l-3.23,1.01a2.084,2.084,0,0,0-1.25,1.31l-.77,2.94c-.61,2.32-2.13,2.55-3.39.51l-1.76-2.85a2.058,2.058,0,0,0-1.68-.88l-3.34.17c-2.39.12-3.07-1.26-1.51-3.08l1.98-2.3a2.081,2.081,0,0,0,.37-1.77l-1.01-3.23c-.59-1.9.47-2.95,2.36-2.33l2.95.97a2.087,2.087,0,0,0,1.67-.26l3.08-2.22C13.9-.613,15.229.087,15.189,2.137Z" transform="translate(0)" fill="#fff"/>
+        </g>
+        <path id="Vector-3" data-name="Vector" d="M4.308,3.247,1.277.218a.75.75,0,0,0-1.06,1.06l3.03,3.03a.748.748,0,0,0,1.06,0A.754.754,0,0,0,4.308,3.247Z" transform="translate(17.132 17.223)" fill="#fff" opacity="0.4"/>
+      </g>
+    </g>
+  </g>
+</svg>

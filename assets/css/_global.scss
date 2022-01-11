@@ -141,6 +141,21 @@ ul{
             border-color: #BC8B46;
         }
 
+        &.red-bk{
+            background-color: #EC3737;
+            border: none;
+        }
+
+        &.move-bk{
+            background-color: #4E008C;
+            border: none;
+        }
+
+        &.green-bk{
+            background-color: #46BC65;
+            border: none;
+        }
+
         &::after{
             content: '';
             position: absolute;
@@ -331,7 +346,7 @@ ul{
     overflow: hidden;
 }
 
-.bottom-padding {
+.bottom-padding{
     padding-bottom: 80px !important;
 }
 
@@ -343,6 +358,13 @@ ul{
         font-weight: 900;
         line-height: 45px;
         margin-bottom: 10px;
+
+        span{
+            color: #BC8B46;
+            font-size: 25px;
+            font-weight: 900;
+            margin-inline-start: 10px;
+        }
     }
 
     p{

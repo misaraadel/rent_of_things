@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     $(window).scroll(function () {
         if ($(this).scrollTop() > 700) {
             $(".scroll-top-btn").addClass('acitve');

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_4496" data-name="Group 4496" transform="translate(-138.666 -13)">
+    <g id="slash_bulk" data-name="slash/bulk" transform="translate(138.666 13)">
+      <g id="vuesax_bulk_slash" data-name="vuesax/bulk/slash">
+        <g id="slash">
+          <path id="Vector" d="M17.53,3.53l-14,14a.176.176,0,0,1-.05.04,8.678,8.678,0,0,1-1.05-1.05A9.9,9.9,0,0,1,0,10,10,10,0,0,1,10,0a9.9,9.9,0,0,1,6.52,2.43,8.678,8.678,0,0,1,1.05,1.05A.176.176,0,0,1,17.53,3.53Z" transform="translate(2 2)" fill="#fff" opacity="0.4"/>
+          <path id="Vector-2" data-name="Vector" d="M15.4,5.4a10,10,0,0,1-10,10A9.815,9.815,0,0,1,0,13.8L13.8,0A9.815,9.815,0,0,1,15.4,5.4Z" transform="translate(6.6 6.6)" fill="#fff" opacity="0.4"/>
+          <path id="Vector-3" data-name="Vector" d="M19.765.225a.773.773,0,0,0-1.09,0L.225,18.685a.773.773,0,0,0,0,1.09.791.791,0,0,0,.54.22.758.758,0,0,0,.54-.23L19.765,1.3A.743.743,0,0,0,19.765.225Z" transform="translate(2.005 2.005)" fill="#fff"/>
+          <path id="Vector-4" data-name="Vector" d="M0,0H24V24H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

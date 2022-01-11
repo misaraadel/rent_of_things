@@ -54,6 +54,10 @@
         }
     }
 
+    .notification-dropdown .dropdown-menu{
+        left: calc(50% - 121px) !important;   
+    }
+
     .acitve-nav{
         right: 0px !important;
     }
@@ -191,6 +195,86 @@
 
     .add-new-product .form-content{
         padding: 50px 10px;
+    }
+
+    .all-products-contain .flex-contain{
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        
+        .heading-data{
+            margin-bottom: 20px;
+        }
+    }
+    .general-product{
+        padding: 30px 10px !important;
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+
+        .product-contain{
+            width: 100% !important;
+        }
+
+        .flex-data{
+            
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center;
+            margin-top: 20px;
+
+            .buttons-product{
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .modal-body , .contact-us .contact-phone{
+        padding: 30px 10px !important;
+    }
+    .all-requests {
+        .request-box{
+            flex-direction: column !important;
+            align-items: center !important;
+            padding: 30px 10px !important;
+    
+            .request-content{
+                width: 100% !important;
+    
+                .flex-data , .request-info{
+                    flex-direction: column !important;
+                    justify-content: center !important;
+    
+                    li{
+                        margin: 0px !important;
+                    }
+    
+                    .product-category-type{
+                        margin: 20px 0px;
+    
+                    }
+                }
+    
+                .btn-data , .product-category-content{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    
+    .request-details .details {
+        .line , .details-btn{
+            flex-wrap: wrap;
+
+            .details-heading , h4{
+                margin-bottom: 15px;
+            }
+
+            .btn-img-contain{
+                margin: 0px 5px !important;
+                width: 130px;
+            }
+        }
     }
 }
 
