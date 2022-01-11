@@ -1,6 +1,130 @@
 @import 'global';
 @import 'animations';
 
+html[dir="ltr"]{
+    .pop-up-products{
+        right: 0px !important;
+        left: -100% ;
+
+        &.active-popup{
+            right: unset !important;
+            left: 0% !important;
+        }
+    }
+
+    .navbar {
+        .drop-list-item::after{
+            left: unset !important;
+            right: 0px !important;
+        }
+        .nav-form-content{ 
+            .from-group .drop-list-item::after ,
+            .submit-search-form{
+                left: unset !important;
+                right: 8px !important;
+            }
+            .from-group .input-content::after{
+                right: unset !important;
+                left: 10px !important;
+            }
+        }
+        .input-content .form-control{
+            border-radius: 30px !important;
+        }
+    }
+
+    .cart .product-cart .accordion .card-body .form-group .icon-contain ,
+    .add-new-product .form-content .form-group .icon-contain ,
+    .form-content .form-group .text-contain ,
+    .form-content .form-group.select-option::After{
+        left: unset !important;
+        right: 15px !important;
+    }
+
+    .sub-header .content .sub-list .sub-item::After{
+        right: -11px;
+        left: unset !important;
+        transform: scaleX(-1);
+    }
+
+    .product-box {
+        .product-category{
+            right: unset !important;
+            left: 12px !important;
+        }
+        .product-fav{
+            right: 12px !important;
+            left: unset !important;
+        }
+    }
+
+    .product-details .content .customer-data .customer-content .customer-details img ,
+    .chat .chat-contain .chat-list .chat-head .arrow{
+        transform: scaleX(-1);
+    }
+
+    .chat .chat-contain .chat-message .send-message .send-btn{
+        left: unset !important;
+        right: 46px !important;
+    }
+
+
+    .contact-us , .sing-in-contain{
+        .form-content .form-group .icon-contain{
+            right: unset !important;
+            left: 15px !important;
+        }
+
+        .passwordIcon{
+            right: 15px !important;
+            left: unset !important;
+        }
+    }
+
+    header .header-img{
+        object-position: right !important;
+    }
+
+    header .content .btn-img-contain{
+        margin-right: auto !important;
+    }
+
+    .payment .payment-content .form-group .icon-contain ,
+    .payment .ticket .accordion .card-body .submit-code ,
+    .product-details .content .product-rate .card .card-header .btn::After{
+        left: unset !important;
+        right: 18px;
+    }
+    .payment .ticket .accordion .card .btn-link::after, 
+    .payment .ticket .accordion .card-header .btn-link::after, 
+    .payment .ticket .accordion .card-body .btn-link::after ,
+    .profile .profile-card .content .requests li::after ,
+    .request-details .nav .nav-item .nav-link::before{
+        left: unset !important;
+        right: 0px !important
+    }
+
+    .product-details .content .product-details-list .product-details-item::before ,
+    .request-details .nav .nav-item .nav-link::after{
+        right: unset;
+        left: 0px !important;
+    }
+
+    .request-details .nav .nav-item::after{
+        right: unset !important;
+        left: 12px !important;
+    }
+    .request-details .nav .nav-item .nav-link::before{
+        transform: translatex(0px) scaleX(-1) !important;
+    }
+
+    .request-details .nav .nav-item .nav-link.active::before{
+        transform: translatex(0px) scaleX(-1) !important;
+    }
+}
+textarea{
+    padding-top: 10px !important;
+}
 .navbar{
     width: 100%;
     padding: 0px !important;
@@ -2438,7 +2562,7 @@ header{
                 height: 100px;
                 border-radius: 15px;
                 .form-control{
-                    padding: 10px 20px;
+                    padding: 10px 20px !important;
                 }
             }
 
