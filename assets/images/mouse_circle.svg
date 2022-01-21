@@ -1,0 +1,9 @@
+<svg id="mouse-circle_bulk" data-name="mouse-circle/bulk" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="vuesax_bulk_mouse-circle" data-name="vuesax/bulk/mouse-circle">
+    <g id="mouse-circle">
+      <path id="Vector" d="M0,0H70V70H0Z" fill="none" opacity="0"/>
+      <path id="Vector-2" data-name="Vector" d="M23.958,14.535l-4.912,1.658a4.536,4.536,0,0,0-2.893,2.893L14.5,24a4.569,4.569,0,0,1-8.71-.09L.211,5.976A4.578,4.578,0,0,1,5.937.22L23.9,5.8A4.6,4.6,0,0,1,23.958,14.535Z" transform="translate(36.88 36.901)" fill="#bc8b46"/>
+      <path id="Vector-3" data-name="Vector" d="M54.932,27.466A27.466,27.466,0,1,1,27.466,0,27.466,27.466,0,0,1,54.932,27.466Z" transform="translate(6.027 6.027)" fill="#bc8b46" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

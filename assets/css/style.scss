@@ -104,6 +104,7 @@ html[dir="ltr"]{
         right: 0px !important
     }
 
+    .about-us .product-details-list .product-details-item::before
     .product-details .content .product-details-list .product-details-item::before ,
     .request-details .nav .nav-item .nav-link::after{
         right: unset;
@@ -163,7 +164,7 @@ textarea{
             align-items: center;
             align-content: center;
             justify-content: space-between;
-            margin-top: 24px;
+            margin-top: 4px;
             
             .hamburger{
                 display: none;
@@ -238,7 +239,7 @@ textarea{
                             align-content: center;
                             position: absolute;
                             top: -12px;
-                            right: -12px;
+                            right: -18px;
                             z-index: 99;
                             border-radius: 50%;
                             color: #fff;
@@ -298,7 +299,8 @@ textarea{
             border-radius: 20px;
             padding: 0px 20px;
             box-shadow: 0px 0px 20px rgba($color: #000000, $alpha: .06);
-            
+            left: -272px;
+            top: 40px;
 
             .dropdown-item{
                 padding: 20px 0px;
@@ -415,14 +417,30 @@ textarea{
             z-index: 999;
             padding: 0px !important;
             overflow: hidden;
+
+            &.profile{
+                width: 235px;
+                left: -138px;
+                top: 40px;
+            }
+
+            &.location{
+                left: -60px;
+                width: 180px;
+                top: 32px;
+            }
+
+            &.language{
+                top: 32px;
+            }
         }
         .dropdown-item{
             border-bottom: 1px solid #E9E9E9;
-            padding: 24px 20px !important;
+            padding: 20px 20px !important;
 
             &.logout{
                 background-color: #EC3737;
-                padding: 20px !important;
+                padding: 13px 20px !important;
                 border: 0px !important;
                 text-align: center;
 
@@ -2456,6 +2474,71 @@ header{
                 align-content: center;
             }
         }
+    }
+}
+
+.about-us{
+    width: 100%;
+    padding: 80px 0px 60px;
+    background-color: #fff;
+
+    .sub-head{
+        color: #BC8B46;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 30px;
+        margin: 0px;
+    }
+
+    p{
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 34px;
+        margin: 20px 0px;    
+    }
+
+    .product-details-list{
+        width: 100%;
+
+        .product-details-item{
+            padding-inline-start: 34px;
+            position: relative;
+            z-index: 9;
+            color: #808080;
+            font-size: 15px;
+            line-height: 25px;
+            font-weight: 400;
+            margin-bottom: 10px;
+
+            &:last-child{
+                margin: 0px;
+            }
+
+            &::before{
+                content: '';
+                position: absolute;
+                width: 24px;
+                height: 24px;
+                background: url('../images/check_circle.svg') center/contain no-repeat;
+                display: inline-block;
+                z-index: -1;
+                right: 0px;
+            }
+            
+            .product-details-time{
+                color: #BC8B46;
+                font-weight: 900;
+                margin-inline-start: 6px;
+            }
+        }
+    }
+
+    .header-img{
+        width: 100%;
+        height: 380px;
+        object-fit: contain;
+        object-position: left;
     }
 }
 

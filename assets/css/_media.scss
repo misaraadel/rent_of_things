@@ -1,3 +1,19 @@
+@media (max-width: 1200px) {
+    .navbar{
+        .top-nav{
+            .nav-form-content , .drop-list-name ,  .user-list .user-data {
+                display: none !important;
+            }
+        }
+        .drop-list-item .dropdown-menu.profile{
+            left: -40px !important;
+        }
+
+        .notification-dropdown .dropdown-menu{
+            left: -50px !important;
+        }
+    }
+}
 @media (max-width: 999px) {
     .navbar{
         .top-nav{
@@ -50,6 +66,14 @@
 
             .user-list .user-item{
                 margin-inline-end: 8px !important;
+            }
+        }
+
+        .dropdown-menu{
+            left: unset !important;
+
+            &.profile{
+                left: -50px !important;
             }
         }
     }

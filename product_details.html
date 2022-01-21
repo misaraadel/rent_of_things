@@ -65,7 +65,7 @@
                                         </div>
                                     </a>
 
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu location" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">
                                             <img
                                             src="assets/images/saudi_arabia.svg"
@@ -135,7 +135,7 @@
                                         </div>
                                     </a>
 
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">
                                             <img
                                             src="assets/images/saudi_arabia.svg"
@@ -235,8 +235,8 @@
                             </form>
 
                             <ul class="user-list">
-                                <li class="user-item">
-                                    <a href="#" class="notification">
+                                <li class="user-item notification-dropdown dropdown">
+                                    <a href="#" class="notification dropdown-toggle" id="notificationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img
                                             src="assets/images/notification.svg"
                                             class="notification-img"
@@ -246,6 +246,41 @@
                                             4
                                         </span>
                                     </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="notificationDropdown">
+                                        <a class="dropdown-item" href="#">
+                                            <p class="message">
+                                                نص الاشعار يظهر هنا معبرا عن محتواه في
+                                                تلط المنطقة للظهور
+                                            </p>
+
+                                            <span class="time">
+                                                منذ دقيقتين
+                                            </span>
+                                        </a>
+
+                                        <a class="dropdown-item" href="#">
+                                            <p class="message">
+                                                نص الاشعار يظهر هنا معبرا عن محتواه في
+                                                تلط المنطقة للظهور
+                                            </p>
+
+                                            <span class="time">
+                                                منذ دقيقتين
+                                            </span>
+                                        </a>
+
+                                        <a class="dropdown-item" href="#">
+                                            <p class="message">
+                                                نص الاشعار يظهر هنا معبرا عن محتواه في
+                                                تلط المنطقة للظهور
+                                            </p>
+
+                                            <span class="time">
+                                                منذ دقيقتين
+                                            </span>
+                                        </a>
+                                    </div>
                                 </li>
 
                                 <li class="user-item drop-list-item dropdown">
@@ -260,7 +295,7 @@
                                         </span>
                                     </a>
 
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu profile" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">
                                             <img
                                             src="assets/images/edit_user.svg"
@@ -370,6 +405,11 @@
                                         </a>
 
                                         <a class="dropdown-item logout" href="#">
+                                            <img
+                                            src="assets/images/logout.svg"
+                                            class="list-img-change"
+                                            alt="" />
+
                                             <span class="drop-list-data-contain white-text">
                                                 تسجيل خروج
                                             </span>

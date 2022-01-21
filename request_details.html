@@ -63,7 +63,7 @@
                                         </div>
                                     </a>
 
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu location" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">
                                             <img
                                             src="assets/images/saudi_arabia.svg"
@@ -133,7 +133,7 @@
                                         </div>
                                     </a>
 
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">
                                             <img
                                             src="assets/images/saudi_arabia.svg"
@@ -233,8 +233,8 @@
                             </form>
 
                             <ul class="user-list">
-                                <li class="user-item">
-                                    <a href="#" class="notification">
+                                <li class="user-item notification-dropdown dropdown">
+                                    <a href="#" class="notification dropdown-toggle" id="notificationDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img
                                             src="assets/images/notification.svg"
                                             class="notification-img"
@@ -244,6 +244,41 @@
                                             4
                                         </span>
                                     </a>
+
+                                    <div class="dropdown-menu" aria-labelledby="notificationDropdown">
+                                        <a class="dropdown-item" href="#">
+                                            <p class="message">
+                                                نص الاشعار يظهر هنا معبرا عن محتواه في
+                                                تلط المنطقة للظهور
+                                            </p>
+
+                                            <span class="time">
+                                                منذ دقيقتين
+                                            </span>
+                                        </a>
+
+                                        <a class="dropdown-item" href="#">
+                                            <p class="message">
+                                                نص الاشعار يظهر هنا معبرا عن محتواه في
+                                                تلط المنطقة للظهور
+                                            </p>
+
+                                            <span class="time">
+                                                منذ دقيقتين
+                                            </span>
+                                        </a>
+
+                                        <a class="dropdown-item" href="#">
+                                            <p class="message">
+                                                نص الاشعار يظهر هنا معبرا عن محتواه في
+                                                تلط المنطقة للظهور
+                                            </p>
+
+                                            <span class="time">
+                                                منذ دقيقتين
+                                            </span>
+                                        </a>
+                                    </div>
                                 </li>
 
                                 <li class="user-item drop-list-item dropdown">
@@ -258,7 +293,7 @@
                                         </span>
                                     </a>
 
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <div class="dropdown-menu profile" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">
                                             <img
                                             src="assets/images/edit_user.svg"
@@ -368,6 +403,11 @@
                                         </a>
 
                                         <a class="dropdown-item logout" href="#">
+                                            <img
+                                            src="assets/images/logout.svg"
+                                            class="list-img-change"
+                                            alt="" />
+
                                             <span class="drop-list-data-contain white-text">
                                                 تسجيل خروج
                                             </span>
@@ -820,6 +860,17 @@
                                             </h4>
 
                                             <div class="button-contain">
+                                                <a href="#" class="btn-img-contain red-bk" data-toggle="modal" data-target="#cancelRequestModal">
+                                                    <img
+                                                        src="assets/images/cancle.svg"
+                                                        class="btn-img"
+                                                        alt="">
+                    
+                                                    <span class="btn-data">
+                                                        الغاء الطلب
+                                                    </span>
+                                                </a>
+
                                                 <a href="#" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#messageModal">
                                                     <img
                                                         src="assets/images/message.svg"
@@ -971,6 +1022,17 @@
                     
                                                     <span class="btn-data">
                                                         مراسلة المؤجر
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="btn-img-contain move-bk" data-toggle="modal" data-target="#addTimeModal">
+                                                    <img
+                                                        src="assets/images/clock.svg"
+                                                        class="btn-img"
+                                                        alt="">
+                    
+                                                    <span class="btn-data">
+                                                        تمديد مدة التأجير
                                                     </span>
                                                 </a>
                                             </div>
@@ -1134,6 +1196,17 @@
                     
                                                     <span class="btn-data">
                                                         أضف تقييم
+                                                    </span>
+                                                </a>
+
+                                                <a href="#" class="btn-img-contain gold-bk" data-toggle="modal" data-target="#doneProductModal">
+                                                    <img
+                                                        src="assets/images/white_mouse.svg"
+                                                        class="btn-img"
+                                                        alt="" />
+                    
+                                                    <span class="btn-data">
+                                                        تسليم المنتج
                                                     </span>
                                                 </a>
                                             </div>
@@ -1588,6 +1661,51 @@
             </div>
         </div>
 
+        <!--add more time-->
+        <div class="modal fade" id="addTimeModal" tabindex="-1" aria-labelledby="addTimeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/images/clock_1.svg" alt="">
+
+                        <h4 class="title">
+                            تمديد مدة الإيجار
+                        </h4>
+
+                        <form class="form-content">
+                            <div class="content">
+                                <label class="label-content">
+                                    مد التأجير حتى تاريخ
+                                </label>
+
+                                <div class="form-group">
+                                    <div class="icon-contain">
+                                        <img src="assets/images/calendar_bulk.svg" alt="">
+                                    </div>
+
+                                    <input type="text" class="form-control" placeholder="  اختر التاريخ "/>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div class="flex-btn button-contain">
+                            <a href="#" class="btn-img-contain gold-bk" data-dismiss="modal">
+                                <span class="btn-data">
+                                    تأكيد
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn-img-contain gold-border" data-dismiss="modal">
+                                <span class="btn-data">
+                                    الغاء
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!--accept request modal-->
         <div class="modal fade" id="acceptRequestModal" tabindex="-1" aria-labelledby="acceptRequestModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
@@ -1601,6 +1719,39 @@
 
                         <p class="done">
                             هل تريد تأكيد قبول هذا الطلب ؟
+                        </p>
+
+                        <div class="flex-btn button-contain">
+                            <a href="#" class="btn-img-contain gold-bk" data-dismiss="modal">
+                                <span class="btn-data">
+                                    تأكيد
+                                </span>
+                            </a>
+
+                            <a href="#" class="btn-img-contain gold-border" data-dismiss="modal">
+                                <span class="btn-data">
+                                    الغاء
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--done product modal-->
+        <div class="modal fade" id="doneProductModal" tabindex="-1" aria-labelledby="doneProductModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="assets/images/mouse_circle.svg" alt="">
+
+                        <h4 class="title">
+                            تسليم المنتج
+                        </h4>
+
+                        <p class="done">
+                            هل تم تسليم المنتج إلى المؤجر بنجاح ؟
                         </p>
 
                         <div class="flex-btn button-contain">
