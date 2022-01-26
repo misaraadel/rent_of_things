@@ -714,7 +714,7 @@ html[dir="ltr"] .payment .payment-content .form-group .icon-contain,
 html[dir="ltr"] .payment .ticket .accordion .card-body .submit-code,
 html[dir="ltr"] .product-details .content .product-rate .card .card-header .btn::After {
   left: unset !important;
-  right: 18px;
+  right: 18px !important;
 }
 
 html[dir="ltr"] .payment .ticket .accordion .card .btn-link::after,
@@ -746,6 +746,94 @@ html[dir="ltr"] .request-details .nav .nav-item .nav-link::before {
 html[dir="ltr"] .request-details .nav .nav-item .nav-link.active::before {
   -webkit-transform: translatex(0px) scaleX(-1) !important;
           transform: translatex(0px) scaleX(-1) !important;
+}
+
+html[dir="ltr"] .navbar .drop-list-item .dropdown-menu.location {
+  left: 80px !important;
+}
+
+html[dir="ltr"] .produt-banner .banner {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
+
+html[dir="ltr"] .produt-banner .banner .banner-content {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+      -ms-flex-direction: row-reverse !important;
+          flex-direction: row-reverse !important;
+}
+
+html[dir="ltr"] .heading .see-all {
+  left: unset !important;
+  right: 0px !important;
+}
+
+html[dir="ltr"] .heading .see-all .see-all-img-content {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+html[dir="ltr"] .navbar .drop-list-item .dropdown-item .data-number {
+  float: right !important;
+}
+
+html[dir="ltr"] .navbar .drop-list-item .dropdown-menu.profile {
+  left: 18px;
+}
+
+html[dir="ltr"] .navbar .drop-list-item .dropdown-item .drop-list-data-contain {
+  margin: 0px 0px 0px 10px !important;
+}
+
+html[dir="ltr"] .navbar .notification-dropdown .dropdown-menu {
+  left: 0px !important;
+}
+
+html[dir="ltr"] .about-us .product-details-list .product-details-item::before,
+html[dir="ltr"] .product-details .content .product-details-list .product-details-item::before {
+  right: unset !important;
+  left: 0px !important;
+}
+
+html[dir="ltr"] .about-us .header-img {
+  -o-object-position: right !important;
+     object-position: right !important;
+}
+
+html[dir="ltr"] .add-new-product .payment-img-content .remove-Img {
+  left: unset !important;
+  right: 10px !important;
+}
+
+html[dir="ltr"] .chat .chat-contain .chat-message .chat-messages-contain .message-shape {
+  border-radius: 0px 0px 20px 0px !important;
+}
+
+html[dir="ltr"] .chat .chat-contain .chat-message .chat-messages-contain .receive-message .message-shape {
+  border-radius: 0px 0px 0px 20px !important;
+}
+
+html[dir="ltr"] .form-content .user-image-content .from-image-upload {
+  right: unset !important;
+  left: -10px !important;
+}
+
+html[dir="ltr"] .sing-in .sing-in-contain::after {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+html[dir="ltr"] .modal-body .form-content .form-group .icon-contain {
+  left: unset !important;
+  right: 12px !important;
+}
+
+html[dir="ltr"] .request-details .nav .nav-item .nav-link::after {
+  right: unset !important;
+  left: 0px !important;
 }
 
 textarea {
@@ -4601,7 +4689,7 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
 .pop-up-products {
   width: 100%;
   position: absolute;
-  top: 254px;
+  top: 232px;
   background-color: #fff;
   right: -100%;
   z-index: 99999 !important;
@@ -5852,6 +5940,75 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
   color: #4E008C;
 }
 
+.terms {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.terms .content {
+  width: 100%;
+  padding: 30px 10px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 10px rgba(179, 130, 36, 0.1);
+          box-shadow: 0px 0px 10px rgba(179, 130, 36, 0.1);
+}
+
+.terms .content p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-align: center;
+  margin: 0px;
+}
+
+.empty-data .content {
+  width: 100%;
+  padding: 50px 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 10px rgba(188, 139, 70, 0.1);
+          box-shadow: 0px 0px 10px rgba(188, 139, 70, 0.1);
+  border-radius: 20px;
+}
+
+.empty-data .content img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 50px;
+}
+
+.empty-data .content h4 {
+  color: #B38224;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0px !important;
+}
+
+.empty-data .content p {
+  color: #B8B6B6;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.empty-data .content .button-contain {
+  width: 100%;
+}
+
+.empty-data .content .button-contain .btn-img-contain {
+  margin: auto;
+}
+
+.empty-data .content .button-contain .btn-img-contain:hover {
+  border: none;
+}
+
 footer {
   width: 100%;
   padding: 70px 0px 70px 0px;
@@ -6112,7 +6269,7 @@ footer .content .socail-media li a:hover img {
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
-    top: 204px;
+    top: 193px;
     right: -100%;
     z-index: 999;
     background-color: #fff;
@@ -6167,6 +6324,12 @@ footer .content .socail-media li a:hover img {
   html[dir="ltr"] .navbar .bottom-nav.acitve-nav {
     right: unset !important;
     left: 0px;
+  }
+  html[dir="ltr"] .navbar .drop-list-item .dropdown-menu.profile {
+    left: -140px !important;
+  }
+  html[dir="ltr"] .navbar .notification-dropdown .dropdown-menu {
+    left: -160px !important;
   }
   .notification-dropdown .dropdown-menu {
     left: calc(50% - 121px) !important;

@@ -93,7 +93,7 @@ html[dir="ltr"]{
     .payment .ticket .accordion .card-body .submit-code ,
     .product-details .content .product-rate .card .card-header .btn::After{
         left: unset !important;
-        right: 18px;
+        right: 18px !important;
     }
     .payment .ticket .accordion .card .btn-link::after, 
     .payment .ticket .accordion .card-header .btn-link::after, 
@@ -121,6 +121,81 @@ html[dir="ltr"]{
 
     .request-details .nav .nav-item .nav-link.active::before{
         transform: translatex(0px) scaleX(-1) !important;
+    }
+
+    .navbar .drop-list-item .dropdown-menu.location{
+        left: 80px !important;
+    }
+
+    .produt-banner .banner{
+        flex-direction: row-reverse !important;
+        .banner-content{
+            flex-direction: row-reverse !important;
+        }
+    }
+
+    .heading .see-all{
+        left: unset !important;
+        right: 0px !important;
+
+        .see-all-img-content{
+            transform: rotate(180deg);
+        }
+    }
+
+    .navbar .drop-list-item .dropdown-item .data-number{
+        float: right !important;
+    }
+    .navbar .drop-list-item .dropdown-menu.profile{
+        left: 18px;
+    }
+    .navbar .drop-list-item .dropdown-item .drop-list-data-contain{
+        margin: 0px 0px 0px 10px !important;
+    }
+
+    .navbar .notification-dropdown .dropdown-menu{
+        left: 0px !important;
+    }
+
+    .about-us .product-details-list .product-details-item::before ,
+    .product-details .content .product-details-list .product-details-item::before{
+        right: unset !important;
+        left: 0px !important;
+    }
+    .about-us .header-img{
+        object-position: right !important;
+    }
+    
+    .add-new-product .payment-img-content .remove-Img{
+        left: unset !important;
+        right: 10px !important;
+    }
+
+    .chat .chat-contain .chat-message .chat-messages-contain .message-shape{
+        border-radius: 0px 0px 20px 0px !important;
+    }
+
+    .chat .chat-contain .chat-message .chat-messages-contain .receive-message .message-shape{
+        border-radius: 0px 0px 0px 20px !important;
+    }
+
+    .form-content .user-image-content .from-image-upload{
+        right: unset !important;
+        left: -10px !important;
+    }
+
+    .sing-in .sing-in-contain::after{
+        transform: scaleX(-1);
+    }
+
+    .modal-body .form-content .form-group .icon-contain{
+        left: unset !important;
+        right: 12px !important;
+    }
+
+    .request-details .nav .nav-item .nav-link::after{
+        right: unset !important;
+        left: 0px !important;
     }
 }
 textarea{
@@ -3365,7 +3440,7 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
 .pop-up-products{
     width: 100%;
     position: absolute;
-    top: 254px;
+    top: 232px;
     background-color: #fff;
     right: -100%;
     z-index: 99999 !important;
@@ -4420,6 +4495,74 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
             }
         }
     }   
+}
+
+.terms{
+    width: 100%;
+    padding: 80px 0px;
+
+    .content{
+        width: 100%;
+        padding: 30px 10px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px rgba($color: #B38224 , $alpha: .1);
+
+        p{
+            color: #000;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.5rem;
+            text-align: center;
+            margin: 0px;
+        }
+    }
+}
+
+.empty-data{
+    .content{
+        width: 100%;
+        padding: 50px 10px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba($color: #BC8B46 , $alpha: .10);
+        border-radius: 20px;
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: contain;
+            object-position: center;
+            margin-bottom: 50px;
+        }
+
+        h4{
+            color: #B38224;
+            font-size: 20px;
+            font-weight: 900;
+            text-align: center;
+            margin: 0px !important;
+        }
+
+        p{
+            color: #B8B6B6;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 50px 0px;
+            text-align: center;
+        }
+
+        .button-contain{
+            width: 100%;
+            
+            .btn-img-contain{
+                margin: auto;
+
+
+                &:hover{
+                    border: none;
+                }
+            }
+        }
+
+    }
 }
 
 footer{
