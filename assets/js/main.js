@@ -225,3 +225,12 @@ function oldPassFun(){
     }
 }
 
+const sliderValue = document.querySelector(".number");
+const inputSlider = document.querySelector(".rang-data");
+const progressBar = document.querySelector(".progress-bar");
+    
+inputSlider.oninput = (() => {
+    let value =  inputSlider.value;
+    sliderValue.textContent = value;
+    progressBar.style.width = value / 2 + "%" ;
+});

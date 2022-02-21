@@ -831,6 +831,7 @@ html[dir="ltr"] .modal-body .form-content .form-group .icon-contain {
   right: 12px !important;
 }
 
+html[dir="ltr"] .range .field .progress-bar,
 html[dir="ltr"] .request-details .nav .nav-item .nav-link::after {
   right: unset !important;
   left: 0px !important;
@@ -2150,6 +2151,7 @@ header .header-img {
   font-weight: 900;
   line-height: 25px;
   margin: 10px 0px;
+  display: block;
 }
 
 .product-box .product-contain .product-user {
@@ -6221,6 +6223,96 @@ footer .content .socail-media li a:hover img {
 
 .copyrights .content .repotic:hover span {
   color: #BC8B46;
+}
+
+.range {
+  width: 100%;
+  height: 50px;
+}
+
+.range .field {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4px !important;
+  border-radius: 4px !important;
+}
+
+.range .field .progress-bar {
+  width: 50%;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #94672E;
+  border-radius: 4px !important;
+  -webkit-transition: width .01s ease;
+  transition: width .01s ease;
+}
+
+.range .field .rang-data {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  background-color: rgba(95, 196, 180, 0.1) !important;
+  border-radius: 4px !important;
+  outline: none;
+  position: relative;
+  z-index: 9;
+  border: none;
+  cursor: pointer;
+}
+
+.range .field .rang-data::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: #fff !important;
+  border-radius: 50% !important;
+  border: 1px solid #94672E !important;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.range .field .rang-data::-moz-range-progress {
+  background-color: #94672E !important;
+}
+
+.range .field .rang-data:hover::-webkit-slider-thumb {
+  border-width: 4px !important;
+}
+
+.range .slider-value {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.range .slider-value span {
+  color: #000000 !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  line-height: 25px !important;
+}
+
+.range .slider-value span.number {
+  -webkit-margin-end: 5px;
+          margin-inline-end: 5px;
 }
 
 @-webkit-keyframes wave {

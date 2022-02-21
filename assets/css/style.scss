@@ -192,8 +192,8 @@ html[dir="ltr"]{
         left: unset !important;
         right: 12px !important;
     }
-
-    .request-details .nav .nav-item .nav-link::after{
+    .range .field .progress-bar,
+    .request-details .nav .nav-item .nav-link::after {
         right: unset !important;
         left: 0px !important;
     }
@@ -1277,6 +1277,7 @@ header{
             font-weight: 900;
             line-height: 25px;
             margin: 10px 0px;
+            display: block;
         }
 
         .product-user{
@@ -4741,6 +4742,83 @@ footer{
                 span{
                     color: #BC8B46;
                 }
+            }
+        }
+    }
+}
+
+.range {
+    width: 100%;
+    height: 50px;
+
+    .field {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 4px !important;
+        border-radius: 4px !important;
+
+        .progress-bar {
+            width: 50%;
+            height: 4px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #94672E;
+            border-radius: 4px !important;
+            transition: width .01s ease;
+        }
+
+        .rang-data {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 4px;
+            background-color: rgba(95, 196, 180, 0.1) !important;
+            border-radius: 4px !important;
+            outline: none;
+            position: relative;
+            z-index: 9;
+            border: none;
+            cursor: pointer;
+
+            &::-webkit-slider-thumb {
+                appearance: none;
+                width: 20px !important;
+                height: 20px !important;
+                background-color: #fff !important;
+                border-radius: 50% !important;
+                border: 1px solid #94672E !important;
+                transition: all .2s linear;
+            }
+
+            &::-moz-range-progress {
+                background-color: #94672E !important;
+            }
+
+            &:hover {
+                &::-webkit-slider-thumb {
+                    border-width: 4px !important;
+                }
+            }
+        }
+    }
+
+    .slider-value {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-top: 10px;
+
+        span {
+            color: #000000 !important;
+            font-size: 16px !important;
+            font-weight: 800 !important;
+            line-height: 25px !important;
+
+            &.number {
+                margin-inline-end: 5px;
             }
         }
     }
